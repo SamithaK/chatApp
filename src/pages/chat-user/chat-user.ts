@@ -2,6 +2,8 @@ import { MessageProvider } from './../../providers/message/message';
 import { Component, ViewChild } from '@angular/core';
 import { IonicPage, NavController, NavParams, ViewController } from 'ionic-angular';
 import { Content } from "ionic-angular";
+import * as moment from 'moment';
+
 /**
  * Generated class for the ChatUserPage page.
  *
@@ -32,11 +34,19 @@ export class ChatUserPage {
     console.log('ionViewDidLoad ChatUserPage');
   }
 
-  sendMessage(){
+  updateList(event) {
+    if (event.key === 'Enter' && event.srcElement) {
+
+        this.sendMessage();
+    }
+  }
+
+
+  sendMessage() {
     this.messeges.push({
-        message: this.textMessage,
-        type: "right",
-        timestamp: new Date().getTime()
+      message: this.textMessage,
+      type: "right",
+      timestamp: new Date().getTime()
     })
     this.textMessage = ""
     setTimeout(() => {

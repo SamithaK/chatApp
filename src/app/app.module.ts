@@ -9,6 +9,8 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { MessageProvider } from '../providers/message/message';
+import { MomentModule } from 'angular2-moment';
+
 
 @NgModule({
   declarations: [
@@ -19,6 +21,7 @@ import { MessageProvider } from '../providers/message/message';
   ],
   imports: [
     BrowserModule,
+    MomentModule,
     IonicModule.forRoot(MyApp)
   ],
   bootstrap: [IonicApp],

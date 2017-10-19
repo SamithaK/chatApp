@@ -27,15 +27,17 @@
             <div class="bubble">
               <p>{{messege.message}}</p>
               <div class="corner"></div>
-              <span>{{messege.timestamp | date}}</span>
+              <span>{{messege.timestamp | amTimeAgo}}</span>
             </div>
           </div>
         </ion-item>
       </ion-list>
     </div>
+
     <div class="sendmessage">
-      <input #txt [(ngModel)]="textMessage" style="width: 90%; height: 100%;" type="text" placeholder="Send message..." value="" />
-      <button (click)="sendMessage()" class="send"></button>
+      <input #txt (keyup)="updateList($event)" [(ngModel)]="textMessage" style="width: 90%; height: 100%; padding-left: 5px;" type="text" placeholder="Send message..."
+        value="" />
+      <button (click)="sendMessage()" [disabled]="!(textMessage)" class="send"></button>
     </div>
   </div>
 
