@@ -20,7 +20,7 @@
       </div>
     </div>
     <div class="messaging">
-      <ion-list>
+      <ion-list (click)="onfocus()">
         <ion-item style="padding-left: 0px;" *ngFor="let messege of messeges">
           <div [ngClass]="{'right': (messege.type == 'right'), 'left':(messege.type == 'left')}" class="message">
             <img src="assets/avata/avata.jpg" />
@@ -35,7 +35,7 @@
     </div>
 
     <div class="sendmessage">
-      <input #txt (keyup)="updateList($event)" [(ngModel)]="textMessage" style="width: 90%; height: 100%; padding-left: 5px;" type="text" placeholder="Send message..."
+      <input (focus)="onfocusinput()" #txt (keyup)="updateList($event)" [(ngModel)]="textMessage" style="width: 85%; height: 100%; padding-left: 5px;" type="text" placeholder="Send message..."
         value="" />
       <button (click)="sendMessage()" [disabled]="!(textMessage)" class="send"></button>
     </div>

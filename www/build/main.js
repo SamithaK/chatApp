@@ -1,1 +1,763 @@
-webpackJsonp([0],{125:function(l,n){function u(l){return Promise.resolve().then(function(){throw new Error("Cannot find module '"+l+"'.")})}u.keys=function(){return[]},u.resolve=u,l.exports=u,u.id=125},159:function(l,n){function u(l){return Promise.resolve().then(function(){throw new Error("Cannot find module '"+l+"'.")})}u.keys=function(){return[]},u.resolve=u,l.exports=u,u.id=159},319:function(l,n,u){"use strict";function e(l){return f["ɵvid"](0,[(l()(),f["ɵeld"](0,null,null,2,"ion-nav",[],null,null,null,Y.b,Y.a)),f["ɵprd"](6144,null,G.a,null,[Q.a]),f["ɵdid"](4374528,null,0,Q.a,[[2,W.a],[2,X.a],ll.a,nl.a,ul.a,f.ElementRef,f.NgZone,f.Renderer,f.ComponentFactoryResolver,el.l,tl.a,[2,al.a],dl.a,f.ErrorHandler],{root:[0,"root"]},null),(l()(),f["ɵted"](null,["\n"]))],function(l,n){l(n,2,0,n.component.rootPage)},null)}function t(l){return f["ɵvid"](0,[(l()(),f["ɵeld"](0,null,null,10,"ion-header",[],null,null,null,null,null)),f["ɵdid"](16384,null,0,rl.a,[nl.a,f.ElementRef,f.Renderer,[2,W.a]],null,null),(l()(),f["ɵted"](null,["\n  "])),(l()(),f["ɵeld"](0,null,null,6,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,cl.b,cl.a)),f["ɵdid"](49152,null,0,ml.a,[ll.a,[2,W.a],[2,X.a],nl.a,f.ElementRef,f.Renderer],null,null),(l()(),f["ɵted"](3,["\n    "])),(l()(),f["ɵeld"](0,null,3,2,"ion-title",[],null,null,null,pl.b,pl.a)),f["ɵdid"](49152,null,0,fl.a,[nl.a,f.ElementRef,f.Renderer,[2,gl.a],[2,ml.a]],null,null),(l()(),f["ɵted"](0,["\n      Ionic Blank\n    "])),(l()(),f["ɵted"](3,["\n  "])),(l()(),f["ɵted"](null,["\n"])),(l()(),f["ɵted"](null,["\n\n"])),(l()(),f["ɵeld"](0,null,null,202,"ion-content",[],[[2,"statusbar-padding",null],[2,"has-refresher",null]],[["window","resize"]],function(l,n,u){var e=!0;return"window:resize"===n&&(e=!1!==f["ɵnov"](l,13).resize()&&e),e},vl.b,vl.a)),f["ɵdid"](4374528,null,0,hl.a,[nl.a,ul.a,dl.a,f.ElementRef,f.Renderer,ll.a,jl.a,f.NgZone,[2,W.a],[2,X.a]],null,null),(l()(),f["ɵted"](1,["\n\n  "])),(l()(),f["ɵeld"](0,null,1,198,"div",[["id","chatbox"]],null,null,null,null,null)),(l()(),f["ɵted"](null,["\n    "])),(l()(),f["ɵeld"](0,null,null,98,"div",[["id","friendslist"]],null,null,null,null,null)),(l()(),f["ɵted"](null,["\n      "])),(l()(),f["ɵeld"](0,null,null,7,"div",[["id","topmenu"]],null,null,null,null,null)),(l()(),f["ɵted"](null,["\n        "])),(l()(),f["ɵeld"](0,null,null,0,"span",[["class","friends"]],null,null,null,null,null)),(l()(),f["ɵted"](null,["\n        "])),(l()(),f["ɵeld"](0,null,null,0,"span",[["class","chats"]],null,null,null,null,null)),(l()(),f["ɵted"](null,["\n        "])),(l()(),f["ɵeld"](0,null,null,0,"span",[["class","history"]],null,null,null,null,null)),(l()(),f["ɵted"](null,["\n      "])),(l()(),f["ɵted"](null,["\n\n      "])),(l()(),f["ɵeld"](0,null,null,86,"div",[["id","friendss"]],null,null,null,null,null)),(l()(),f["ɵted"](null,["\n        "])),(l()(),f["ɵeld"](0,null,null,14,"div",[["class","friend"]],null,null,null,null,null)),(l()(),f["ɵted"](null,["\n          "])),(l()(),f["ɵeld"](0,null,null,0,"img",[["src","https://s3-us-west-2.amazonaws.com/s.cdpn.io/245657/1_copy.jpg"]],null,null,null,null,null)),(l()(),f["ɵted"](null,["\n          "])),(l()(),f["ɵeld"](0,null,null,7,"p",[],null,null,null,null,null)),(l()(),f["ɵted"](null,["\n            "])),(l()(),f["ɵeld"](0,null,null,1,"strong",[],null,null,null,null,null)),(l()(),f["ɵted"](null,["Miro Badev"])),(l()(),f["ɵted"](null,["\n            "])),(l()(),f["ɵeld"](0,null,null,1,"span",[],null,null,null,null,null)),(l()(),f["ɵted"](null,["mirobadev@gmail.com"])),(l()(),f["ɵted"](null,["\n          "])),(l()(),f["ɵted"](null,["\n          "])),(l()(),f["ɵeld"](0,null,null,0,"div",[["class","status available"]],null,null,null,null,null)),(l()(),f["ɵted"](null,["\n        "])),(l()(),f["ɵted"](null,["\n\n        "])),(l()(),f["ɵeld"](0,null,null,14,"div",[["class","friend"]],null,null,null,null,null)),(l()(),f["ɵted"](null,["\n          "])),(l()(),f["ɵeld"](0,null,null,0,"img",[["src","https://s3-us-west-2.amazonaws.com/s.cdpn.io/245657/2_copy.jpg"]],null,null,null,null,null)),(l()(),f["ɵted"](null,["\n          "])),(l()(),f["ɵeld"](0,null,null,7,"p",[],null,null,null,null,null)),(l()(),f["ɵted"](null,["\n            "])),(l()(),f["ɵeld"](0,null,null,1,"strong",[],null,null,null,null,null)),(l()(),f["ɵted"](null,["Martin Joseph"])),(l()(),f["ɵted"](null,["\n            "])),(l()(),f["ɵeld"](0,null,null,1,"span",[],null,null,null,null,null)),(l()(),f["ɵted"](null,["marjoseph@gmail.com"])),(l()(),f["ɵted"](null,["\n          "])),(l()(),f["ɵted"](null,["\n          "])),(l()(),f["ɵeld"](0,null,null,0,"div",[["class","status away"]],null,null,null,null,null)),(l()(),f["ɵted"](null,["\n        "])),(l()(),f["ɵted"](null,["\n\n        "])),(l()(),f["ɵeld"](0,null,null,14,"div",[["class","friend"]],null,null,null,null,null)),(l()(),f["ɵted"](null,["\n          "])),(l()(),f["ɵeld"](0,null,null,0,"img",[["src","https://s3-us-west-2.amazonaws.com/s.cdpn.io/245657/3_copy.jpg"]],null,null,null,null,null)),(l()(),f["ɵted"](null,["\n          "])),(l()(),f["ɵeld"](0,null,null,7,"p",[],null,null,null,null,null)),(l()(),f["ɵted"](null,["\n            "])),(l()(),f["ɵeld"](0,null,null,1,"strong",[],null,null,null,null,null)),(l()(),f["ɵted"](null,["Tomas Kennedy"])),(l()(),f["ɵted"](null,["\n            "])),(l()(),f["ɵeld"](0,null,null,1,"span",[],null,null,null,null,null)),(l()(),f["ɵted"](null,["tomaskennedy@gmail.com"])),(l()(),f["ɵted"](null,["\n          "])),(l()(),f["ɵted"](null,["\n          "])),(l()(),f["ɵeld"](0,null,null,0,"div",[["class","status inactive"]],null,null,null,null,null)),(l()(),f["ɵted"](null,["\n        "])),(l()(),f["ɵted"](null,["\n\n        "])),(l()(),f["ɵeld"](0,null,null,14,"div",[["class","friend"]],null,null,null,null,null)),(l()(),f["ɵted"](null,["\n          "])),(l()(),f["ɵeld"](0,null,null,0,"img",[["src","https://s3-us-west-2.amazonaws.com/s.cdpn.io/245657/4_copy.jpg"]],null,null,null,null,null)),(l()(),f["ɵted"](null,["\n          "])),(l()(),f["ɵeld"](0,null,null,7,"p",[],null,null,null,null,null)),(l()(),f["ɵted"](null,["\n            "])),(l()(),f["ɵeld"](0,null,null,1,"strong",[],null,null,null,null,null)),(l()(),f["ɵted"](null,["Enrique Sutton"])),(l()(),f["ɵted"](null,["\n            "])),(l()(),f["ɵeld"](0,null,null,1,"span",[],null,null,null,null,null)),(l()(),f["ɵted"](null,["enriquesutton@gmail.com"])),(l()(),f["ɵted"](null,["\n          "])),(l()(),f["ɵted"](null,["\n          "])),(l()(),f["ɵeld"](0,null,null,0,"div",[["class","status inactive"]],null,null,null,null,null)),(l()(),f["ɵted"](null,["\n        "])),(l()(),f["ɵted"](null,["\n\n        "])),(l()(),f["ɵeld"](0,null,null,14,"div",[["class","friend"]],null,null,null,null,null)),(l()(),f["ɵted"](null,["\n          "])),(l()(),f["ɵeld"](0,null,null,0,"img",[["src","https://s3-us-west-2.amazonaws.com/s.cdpn.io/245657/5_copy.jpg"]],null,null,null,null,null)),(l()(),f["ɵted"](null,["\n          "])),(l()(),f["ɵeld"](0,null,null,7,"p",[],null,null,null,null,null)),(l()(),f["ɵted"](null,["\n            "])),(l()(),f["ɵeld"](0,null,null,1,"strong",[],null,null,null,null,null)),(l()(),f["ɵted"](null,[" Darnell Strickland"])),(l()(),f["ɵted"](null,["\n            "])),(l()(),f["ɵeld"](0,null,null,1,"span",[],null,null,null,null,null)),(l()(),f["ɵted"](null,["darnellstrickland@gmail.com"])),(l()(),f["ɵted"](null,["\n          "])),(l()(),f["ɵted"](null,["\n          "])),(l()(),f["ɵeld"](0,null,null,0,"div",[["class","status inactive"]],null,null,null,null,null)),(l()(),f["ɵted"](null,["\n        "])),(l()(),f["ɵted"](null,["\n\n        "])),(l()(),f["ɵeld"](0,null,null,3,"div",[["id","search"]],null,null,null,null,null)),(l()(),f["ɵted"](null,["\n          "])),(l()(),f["ɵeld"](0,null,null,0,"input",[["id","searchfield"],["type","text"],["value","Search contacts..."]],null,null,null,null,null)),(l()(),f["ɵted"](null,["\n        "])),(l()(),f["ɵted"](null,["\n\n      "])),(l()(),f["ɵted"](null,["\n\n    "])),(l()(),f["ɵted"](null,["\n\n    "])),(l()(),f["ɵeld"](0,null,null,95,"div",[["class","p1"],["id","chatview"]],null,null,null,null,null)),(l()(),f["ɵted"](null,["\n      "])),(l()(),f["ɵeld"](0,null,null,14,"div",[["id","profile"]],null,null,null,null,null)),(l()(),f["ɵted"](null,["\n\n        "])),(l()(),f["ɵeld"](0,null,null,5,"div",[["id","close"]],null,null,null,null,null)),(l()(),f["ɵted"](null,["\n          "])),(l()(),f["ɵeld"](0,null,null,0,"div",[["class","cy"]],null,null,null,null,null)),(l()(),f["ɵted"](null,["\n          "])),(l()(),f["ɵeld"](0,null,null,0,"div",[["class","cx"]],null,null,null,null,null)),(l()(),f["ɵted"](null,["\n        "])),(l()(),f["ɵted"](null,["\n\n        "])),(l()(),f["ɵeld"](0,null,null,1,"p",[],null,null,null,null,null)),(l()(),f["ɵted"](null,["Miro Badev"])),(l()(),f["ɵted"](null,["\n        "])),(l()(),f["ɵeld"](0,null,null,1,"span",[],null,null,null,null,null)),(l()(),f["ɵted"](null,["miro@badev@gmail.com"])),(l()(),f["ɵted"](null,["\n      "])),(l()(),f["ɵted"](null,["\n      "])),(l()(),f["ɵeld"](0,null,null,69,"div",[["id","chat-messages"]],null,null,null,null,null)),(l()(),f["ɵted"](null,["\n        "])),(l()(),f["ɵeld"](0,null,null,1,"label",[],null,null,null,null,null)),(l()(),f["ɵted"](null,["Thursday 02"])),(l()(),f["ɵted"](null,["\n\n        "])),(l()(),f["ɵeld"](0,null,null,11,"div",[["class","message"]],null,null,null,null,null)),(l()(),f["ɵted"](null,["\n          "])),(l()(),f["ɵeld"](0,null,null,0,"img",[["src","https://s3-us-west-2.amazonaws.com/s.cdpn.io/245657/1_copy.jpg"]],null,null,null,null,null)),(l()(),f["ɵted"](null,["\n          "])),(l()(),f["ɵeld"](0,null,null,6,"div",[["class","bubble"]],null,null,null,null,null)),(l()(),f["ɵted"](null,["\n            Really cool stuff!\n            "])),(l()(),f["ɵeld"](0,null,null,0,"div",[["class","corner"]],null,null,null,null,null)),(l()(),f["ɵted"](null,["\n            "])),(l()(),f["ɵeld"](0,null,null,1,"span",[],null,null,null,null,null)),(l()(),f["ɵted"](null,["3 min"])),(l()(),f["ɵted"](null,["\n          "])),(l()(),f["ɵted"](null,["\n        "])),(l()(),f["ɵted"](null,["\n\n        "])),(l()(),f["ɵeld"](0,null,null,11,"div",[["class","message right"]],null,null,null,null,null)),(l()(),f["ɵted"](null,["\n          "])),(l()(),f["ɵeld"](0,null,null,0,"img",[["src","https://s3-us-west-2.amazonaws.com/s.cdpn.io/245657/2_copy.jpg"]],null,null,null,null,null)),(l()(),f["ɵted"](null,["\n          "])),(l()(),f["ɵeld"](0,null,null,6,"div",[["class","bubble"]],null,null,null,null,null)),(l()(),f["ɵted"](null,["\n            Can you share a link for the tutorial?\n            "])),(l()(),f["ɵeld"](0,null,null,0,"div",[["class","corner"]],null,null,null,null,null)),(l()(),f["ɵted"](null,["\n            "])),(l()(),f["ɵeld"](0,null,null,1,"span",[],null,null,null,null,null)),(l()(),f["ɵted"](null,["1 min"])),(l()(),f["ɵted"](null,["\n          "])),(l()(),f["ɵted"](null,["\n        "])),(l()(),f["ɵted"](null,["\n\n        "])),(l()(),f["ɵeld"](0,null,null,11,"div",[["class","message"]],null,null,null,null,null)),(l()(),f["ɵted"](null,["\n          "])),(l()(),f["ɵeld"](0,null,null,0,"img",[["src","https://s3-us-west-2.amazonaws.com/s.cdpn.io/245657/1_copy.jpg"]],null,null,null,null,null)),(l()(),f["ɵted"](null,["\n          "])),(l()(),f["ɵeld"](0,null,null,6,"div",[["class","bubble"]],null,null,null,null,null)),(l()(),f["ɵted"](null,["\n            Yeah, hold on\n            "])),(l()(),f["ɵeld"](0,null,null,0,"div",[["class","corner"]],null,null,null,null,null)),(l()(),f["ɵted"](null,["\n            "])),(l()(),f["ɵeld"](0,null,null,1,"span",[],null,null,null,null,null)),(l()(),f["ɵted"](null,["Now"])),(l()(),f["ɵted"](null,["\n          "])),(l()(),f["ɵted"](null,["\n        "])),(l()(),f["ɵted"](null,["\n\n        "])),(l()(),f["ɵeld"](0,null,null,11,"div",[["class","message right"]],null,null,null,null,null)),(l()(),f["ɵted"](null,["\n          "])),(l()(),f["ɵeld"](0,null,null,0,"img",[["src","https://s3-us-west-2.amazonaws.com/s.cdpn.io/245657/2_copy.jpg"]],null,null,null,null,null)),(l()(),f["ɵted"](null,["\n          "])),(l()(),f["ɵeld"](0,null,null,6,"div",[["class","bubble"]],null,null,null,null,null)),(l()(),f["ɵted"](null,["\n            Can you share a link for the tutorial?\n            "])),(l()(),f["ɵeld"](0,null,null,0,"div",[["class","corner"]],null,null,null,null,null)),(l()(),f["ɵted"](null,["\n            "])),(l()(),f["ɵeld"](0,null,null,1,"span",[],null,null,null,null,null)),(l()(),f["ɵted"](null,["1 min"])),(l()(),f["ɵted"](null,["\n          "])),(l()(),f["ɵted"](null,["\n        "])),(l()(),f["ɵted"](null,["\n\n        "])),(l()(),f["ɵeld"](0,null,null,11,"div",[["class","message"]],null,null,null,null,null)),(l()(),f["ɵted"](null,["\n          "])),(l()(),f["ɵeld"](0,null,null,0,"img",[["src","https://s3-us-west-2.amazonaws.com/s.cdpn.io/245657/1_copy.jpg"]],null,null,null,null,null)),(l()(),f["ɵted"](null,["\n          "])),(l()(),f["ɵeld"](0,null,null,6,"div",[["class","bubble"]],null,null,null,null,null)),(l()(),f["ɵted"](null,["\n            Yeah, hold on\n            "])),(l()(),f["ɵeld"](0,null,null,0,"div",[["class","corner"]],null,null,null,null,null)),(l()(),f["ɵted"](null,["\n            "])),(l()(),f["ɵeld"](0,null,null,1,"span",[],null,null,null,null,null)),(l()(),f["ɵted"](null,["Now"])),(l()(),f["ɵted"](null,["\n          "])),(l()(),f["ɵted"](null,["\n        "])),(l()(),f["ɵted"](null,["\n\n      "])),(l()(),f["ɵted"](null,["\n\n      "])),(l()(),f["ɵeld"](0,null,null,5,"div",[["id","sendmessage"]],null,null,null,null,null)),(l()(),f["ɵted"](null,["\n        "])),(l()(),f["ɵeld"](0,null,null,0,"input",[["type","text"],["value","Send message..."]],null,null,null,null,null)),(l()(),f["ɵted"](null,["\n        "])),(l()(),f["ɵeld"](0,null,null,0,"button",[["id","send"]],null,null,null,null,null)),(l()(),f["ɵted"](null,["\n      "])),(l()(),f["ɵted"](null,["\n\n    "])),(l()(),f["ɵted"](null,["\n  "])),(l()(),f["ɵted"](1,["\n\n\n\n\n\n"]))],null,function(l,n){l(n,3,0,f["ɵnov"](n,4)._hidden,f["ɵnov"](n,4)._sbPadding),l(n,12,0,f["ɵnov"](n,13).statusbarPadding,f["ɵnov"](n,13)._hasRefresher)})}function a(l){return f["ɵvid"](0,[(l()(),f["ɵeld"](0,null,null,6,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,cl.b,cl.a)),f["ɵdid"](49152,null,0,ml.a,[ll.a,[2,W.a],[2,X.a],nl.a,f.ElementRef,f.Renderer],null,null),(l()(),f["ɵted"](3,["\n    "])),(l()(),f["ɵeld"](0,null,3,2,"ion-title",[],null,null,null,pl.b,pl.a)),f["ɵdid"](49152,null,0,fl.a,[nl.a,f.ElementRef,f.Renderer,[2,gl.a],[2,ml.a]],null,null),(l()(),f["ɵted"](0,["chat"])),(l()(),f["ɵted"](3,["\n  "]))],null,function(l,n){l(n,0,0,f["ɵnov"](n,1)._hidden,f["ɵnov"](n,1)._sbPadding)})}function d(l){return f["ɵvid"](0,[(l()(),f["ɵeld"](0,null,null,26,"ion-list",[],null,null,null,null,null)),f["ɵdid"](16384,null,0,wl.a,[nl.a,f.ElementRef,f.Renderer,ul.a,el.l,dl.a],null,null),(l()(),f["ɵted"](null,["\n      "])),(l()(),f["ɵeld"](0,null,null,22,"ion-item",[["class","item item-block"]],null,[[null,"click"]],function(l,n,u){var e=!0,t=l.component;return"click"===n&&(e=!1!==t.clickUser(l.context.$implicit)&&e),e},Rl.b,Rl.a)),f["ɵdid"](1097728,null,3,_l.a,[Cl.a,nl.a,f.ElementRef,f.Renderer,[2,Ol.a]],null,null),f["ɵqud"](335544320,1,{contentLabel:0}),f["ɵqud"](603979776,2,{_buttons:1}),f["ɵqud"](603979776,3,{_icons:1}),f["ɵdid"](16384,null,0,zl.a,[],null,null),(l()(),f["ɵted"](2,["\n        "])),(l()(),f["ɵeld"](0,null,0,4,"ion-avatar",[["item-start",""]],null,null,null,null,null)),f["ɵdid"](16384,null,0,El.a,[],null,null),(l()(),f["ɵted"](null,["\n          "])),(l()(),f["ɵeld"](0,null,null,0,"img",[["src","assets/avata/avata.jpg"]],null,null,null,null,null)),(l()(),f["ɵted"](null,["\n        "])),(l()(),f["ɵted"](2,["\n        "])),(l()(),f["ɵeld"](0,null,2,1,"h2",[],null,null,null,null,null)),(l()(),f["ɵted"](null,["",""])),(l()(),f["ɵted"](2,["\n        "])),(l()(),f["ɵeld"](0,null,2,1,"p",[],null,null,null,null,null)),(l()(),f["ɵted"](null,["",""])),(l()(),f["ɵted"](2,["\n        "])),(l()(),f["ɵeld"](0,null,2,2,"div",[["class","status"]],null,null,null,null,null)),f["ɵdid"](278528,null,0,Il.h,[f.IterableDiffers,f.KeyValueDiffers,f.ElementRef,f.Renderer],{klass:[0,"klass"],ngClass:[1,"ngClass"]},null),f["ɵpod"]({away:0,inactive:1}),(l()(),f["ɵted"](2,["\n      "])),(l()(),f["ɵted"](null,["\n    "]))],function(l,n){l(n,23,0,"status",l(n,24,0,"away"==n.context.$implicit.status,"inactive"==n.context.$implicit.status))},function(l,n){l(n,17,0,n.context.$implicit.name),l(n,20,0,n.context.$implicit.email)})}function s(l){return f["ɵvid"](0,[(l()(),f["ɵeld"](0,null,null,4,"div",[["class","show-friends"]],null,null,null,null,null)),(l()(),f["ɵted"](null,["\n    "])),(l()(),f["ɵand"](16777216,null,null,1,null,d)),f["ɵdid"](802816,null,0,Il.i,[f.ViewContainerRef,f.TemplateRef,f.IterableDiffers],{ngForOf:[0,"ngForOf"]},null),(l()(),f["ɵted"](null,["\n  "]))],function(l,n){l(n,3,0,n.component.friends)},null)}function i(l){return f["ɵvid"](0,[(l()(),f["ɵeld"](0,null,null,22,"ion-item",[["class","item item-block"]],null,null,null,Rl.b,Rl.a)),f["ɵdid"](1097728,null,3,_l.a,[Cl.a,nl.a,f.ElementRef,f.Renderer,[2,Ol.a]],null,null),f["ɵqud"](335544320,4,{contentLabel:0}),f["ɵqud"](603979776,5,{_buttons:1}),f["ɵqud"](603979776,6,{_icons:1}),f["ɵdid"](16384,null,0,zl.a,[],null,null),(l()(),f["ɵted"](2,["\n          "])),(l()(),f["ɵeld"](0,null,2,14,"div",[["class","message"]],null,null,null,null,null)),f["ɵdid"](278528,null,0,Il.h,[f.IterableDiffers,f.KeyValueDiffers,f.ElementRef,f.Renderer],{klass:[0,"klass"],ngClass:[1,"ngClass"]},null),f["ɵpod"]({right:0,left:1}),(l()(),f["ɵted"](null,["\n            "])),(l()(),f["ɵeld"](0,null,null,0,"img",[["src","assets/avata/avata.jpg"]],null,null,null,null,null)),(l()(),f["ɵted"](null,["\n            "])),(l()(),f["ɵeld"](0,null,null,7,"div",[["class","bubble"]],null,null,null,null,null)),(l()(),f["ɵted"](null,["\n              ","\n              "])),(l()(),f["ɵeld"](0,null,null,0,"div",[["class","corner"]],null,null,null,null,null)),(l()(),f["ɵted"](null,["\n              "])),(l()(),f["ɵeld"](0,null,null,2,"span",[],null,null,null,null,null)),(l()(),f["ɵted"](null,["",""])),f["ɵppd"](1),(l()(),f["ɵted"](null,["\n            "])),(l()(),f["ɵted"](null,["\n          "])),(l()(),f["ɵted"](2,["\n        "]))],function(l,n){l(n,8,0,"message",l(n,9,0,"right"==n.context.$implicit.type,"left"==n.context.$implicit.type))},function(l,n){l(n,14,0,n.context.$implicit.message),l(n,18,0,f["ɵunv"](n,18,0,l(n,19,0,f["ɵnov"](n.parent.parent,0),n.context.$implicit.timestamp)))})}function o(l){return f["ɵvid"](0,[(l()(),f["ɵeld"](0,null,null,42,"div",[],null,null,null,null,null)),(l()(),f["ɵted"](null,["\n    "])),(l()(),f["ɵeld"](0,null,null,0,"div",[["class","close"]],null,[[null,"click"]],function(l,n,u){var e=!0,t=l.component;return"click"===n&&(e=!1!==t.close()&&e),e},null,null)),(l()(),f["ɵted"](null,["\n    "])),(l()(),f["ɵeld"](0,null,null,20,"div",[["class","user_section"]],null,null,null,null,null)),(l()(),f["ɵted"](null,["\n      "])),(l()(),f["ɵeld"](0,null,null,17,"div",[["class","user_section1"]],null,null,null,null,null)),(l()(),f["ɵted"](null,["\n        "])),(l()(),f["ɵeld"](0,null,null,3,"div",[["class","user_image"]],null,null,null,null,null)),(l()(),f["ɵted"](null,["\n          "])),(l()(),f["ɵeld"](0,null,null,0,"img",[["src","assets/avata/avata.jpg"]],null,null,null,null,null)),(l()(),f["ɵted"](null,["\n        "])),(l()(),f["ɵted"](null,["\n        "])),(l()(),f["ɵeld"](0,null,null,9,"div",[["class","user_details"]],null,null,null,null,null)),(l()(),f["ɵted"](null,["\n          "])),(l()(),f["ɵeld"](0,null,null,1,"span",[],null,null,null,null,null)),(l()(),f["ɵted"](null,["",""])),(l()(),f["ɵted"](null,["\n          "])),(l()(),f["ɵeld"](0,null,null,0,"br",[],null,null,null,null,null)),(l()(),f["ɵted"](null,["\n          "])),(l()(),f["ɵeld"](0,null,null,1,"span",[],null,null,null,null,null)),(l()(),f["ɵted"](null,["",""])),(l()(),f["ɵted"](null,["\n        "])),(l()(),f["ɵted"](null,["\n      "])),(l()(),f["ɵted"](null,["\n    "])),(l()(),f["ɵted"](null,["\n\n    "])),(l()(),f["ɵeld"](0,null,null,8,"div",[["class","messaging"]],null,null,null,null,null)),(l()(),f["ɵted"](null,["\n      "])),(l()(),f["ɵeld"](0,null,null,5,"ion-list",[],null,null,null,null,null)),f["ɵdid"](16384,null,0,wl.a,[nl.a,f.ElementRef,f.Renderer,ul.a,el.l,dl.a],null,null),(l()(),f["ɵted"](null,["\n        "])),(l()(),f["ɵand"](16777216,null,null,1,null,i)),f["ɵdid"](802816,null,0,Il.i,[f.ViewContainerRef,f.TemplateRef,f.IterableDiffers],{ngForOf:[0,"ngForOf"]},null),(l()(),f["ɵted"](null,["\n      "])),(l()(),f["ɵted"](null,["\n    "])),(l()(),f["ɵted"](null,["\n    "])),(l()(),f["ɵeld"](0,null,null,5,"div",[["class","sendmessages"]],null,null,null,null,null)),(l()(),f["ɵted"](null,["\n      "])),(l()(),f["ɵeld"](0,null,null,0,"input",[["placeholder","Send message..."],["style","width: 90%; height: 100%;"],["type","text"],["value",""]],null,null,null,null,null)),(l()(),f["ɵted"](null,["\n      "])),(l()(),f["ɵeld"](0,null,null,0,"button",[["class","send"]],null,null,null,null,null)),(l()(),f["ɵted"](null,["\n    "])),(l()(),f["ɵted"](null,["\n  "]))],function(l,n){l(n,32,0,n.component.messeges)},function(l,n){var u=n.component;l(n,16,0,u.name),l(n,21,0,u.email)})}function r(l){return f["ɵvid"](0,[f["ɵpid"](0,Il.d,[f.LOCALE_ID]),(l()(),f["ɵted"](null,["\n"])),(l()(),f["ɵeld"](0,null,null,5,"ion-header",[],null,null,null,null,null)),f["ɵdid"](16384,null,0,rl.a,[nl.a,f.ElementRef,f.Renderer,[2,W.a]],null,null),(l()(),f["ɵted"](null,["\n\n  "])),(l()(),f["ɵand"](16777216,null,null,1,null,a)),f["ɵdid"](16384,null,0,Il.j,[f.ViewContainerRef,f.TemplateRef],{ngIf:[0,"ngIf"]},null),(l()(),f["ɵted"](null,["\n\n"])),(l()(),f["ɵted"](null,["\n\n\n"])),(l()(),f["ɵeld"](0,null,null,20,"ion-content",[],[[2,"statusbar-padding",null],[2,"has-refresher",null]],[["window","resize"]],function(l,n,u){var e=!0;return"window:resize"===n&&(e=!1!==f["ɵnov"](l,10).resize()&&e),e},vl.b,vl.a)),f["ɵdid"](4374528,null,0,hl.a,[nl.a,ul.a,dl.a,f.ElementRef,f.Renderer,ll.a,jl.a,f.NgZone,[2,W.a],[2,X.a]],null,null),(l()(),f["ɵted"](1,["\n\n  "])),(l()(),f["ɵeld"](0,null,1,10,"div",[["id","topmenu"]],null,null,null,null,null)),(l()(),f["ɵted"](null,["\n    "])),(l()(),f["ɵeld"](0,null,null,2,"span",[["class","friends"]],null,[[null,"click"]],function(l,n,u){var e=!0,t=l.component;return"click"===n&&(e=!1!==t.clickTab("friends")&&e),e},null,null)),f["ɵdid"](278528,null,0,Il.h,[f.IterableDiffers,f.KeyValueDiffers,f.ElementRef,f.Renderer],{klass:[0,"klass"],ngClass:[1,"ngClass"]},null),f["ɵpod"]({active:0}),(l()(),f["ɵted"](null,["\n    "])),(l()(),f["ɵted"](null,["\n    "])),(l()(),f["ɵeld"](0,null,null,2,"span",[["class","history"]],null,[[null,"click"]],function(l,n,u){var e=!0,t=l.component;return"click"===n&&(e=!1!==t.clickTab("history")&&e),e},null,null)),f["ɵdid"](278528,null,0,Il.h,[f.IterableDiffers,f.KeyValueDiffers,f.ElementRef,f.Renderer],{klass:[0,"klass"],ngClass:[1,"ngClass"]},null),f["ɵpod"]({active:0}),(l()(),f["ɵted"](null,["\n  "])),(l()(),f["ɵted"](1,["\n\n  "])),(l()(),f["ɵand"](16777216,null,1,1,null,s)),f["ɵdid"](16384,null,0,Il.j,[f.ViewContainerRef,f.TemplateRef],{ngIf:[0,"ngIf"]},null),(l()(),f["ɵted"](1,["\n\n\n  "])),(l()(),f["ɵand"](16777216,null,1,1,null,o)),f["ɵdid"](16384,null,0,Il.j,[f.ViewContainerRef,f.TemplateRef],{ngIf:[0,"ngIf"]},null),(l()(),f["ɵted"](1,["\n\n"]))],function(l,n){var u=n.component;l(n,6,0,!("chat"==u.type));l(n,15,0,"friends",l(n,16,0,"friends"==u.type));l(n,20,0,"history",l(n,21,0,"history"==u.type)),l(n,25,0,"friends"==u.type),l(n,28,0,"chat"==u.type)},function(l,n){l(n,9,0,f["ɵnov"](n,10).statusbarPadding,f["ɵnov"](n,10)._hasRefresher)})}function c(l){return f["ɵvid"](0,[(l()(),f["ɵeld"](0,null,null,25,"ion-item",[["class","item item-block"],["style","padding-left: 0px;"]],null,null,null,Rl.b,Rl.a)),f["ɵdid"](1097728,null,3,_l.a,[Cl.a,nl.a,f.ElementRef,f.Renderer,[2,Ol.a]],null,null),f["ɵqud"](335544320,3,{contentLabel:0}),f["ɵqud"](603979776,4,{_buttons:1}),f["ɵqud"](603979776,5,{_icons:1}),f["ɵdid"](16384,null,0,zl.a,[],null,null),(l()(),f["ɵted"](2,["\n          "])),(l()(),f["ɵeld"](0,null,2,17,"div",[["class","message"]],null,null,null,null,null)),f["ɵdid"](278528,null,0,Il.h,[f.IterableDiffers,f.KeyValueDiffers,f.ElementRef,f.Renderer],{klass:[0,"klass"],ngClass:[1,"ngClass"]},null),f["ɵpod"]({right:0,left:1}),(l()(),f["ɵted"](null,["\n            "])),(l()(),f["ɵeld"](0,null,null,0,"img",[["src","assets/avata/avata.jpg"]],null,null,null,null,null)),(l()(),f["ɵted"](null,["\n            "])),(l()(),f["ɵeld"](0,null,null,10,"div",[["class","bubble"]],null,null,null,null,null)),(l()(),f["ɵted"](null,["\n              "])),(l()(),f["ɵeld"](0,null,null,1,"p",[],null,null,null,null,null)),(l()(),f["ɵted"](null,["",""])),(l()(),f["ɵted"](null,["\n              "])),(l()(),f["ɵeld"](0,null,null,0,"div",[["class","corner"]],null,null,null,null,null)),(l()(),f["ɵted"](null,["\n              "])),(l()(),f["ɵeld"](0,null,null,2,"span",[],null,null,null,null,null)),(l()(),f["ɵted"](null,["",""])),f["ɵpid"](131072,Ll.TimeAgoPipe,[f.ChangeDetectorRef,f.NgZone]),(l()(),f["ɵted"](null,["\n            "])),(l()(),f["ɵted"](null,["\n          "])),(l()(),f["ɵted"](2,["\n        "]))],function(l,n){l(n,8,0,"message",l(n,9,0,"right"==n.context.$implicit.type,"left"==n.context.$implicit.type))},function(l,n){l(n,16,0,n.context.$implicit.message),l(n,21,0,f["ɵunv"](n,21,0,f["ɵnov"](n,22).transform(n.context.$implicit.timestamp)))})}function m(l){return f["ɵvid"](0,[f["ɵqud"](402653184,1,{content:0}),f["ɵqud"](402653184,2,{txt:0}),(l()(),f["ɵted"](null,["\n"])),(l()(),f["ɵeld"](0,null,null,51,"ion-content",[["class","pt-page-scaleUp"]],[[2,"statusbar-padding",null],[2,"has-refresher",null]],[["window","resize"]],function(l,n,u){var e=!0;return"window:resize"===n&&(e=!1!==f["ɵnov"](l,4).resize()&&e),e},vl.b,vl.a)),f["ɵdid"](4374528,[[1,4]],0,hl.a,[nl.a,ul.a,dl.a,f.ElementRef,f.Renderer,ll.a,jl.a,f.NgZone,[2,W.a],[2,X.a]],null,null),(l()(),f["ɵted"](1,["\n  "])),(l()(),f["ɵeld"](0,null,1,47,"div",[],null,null,null,null,null)),(l()(),f["ɵted"](null,["\n    "])),(l()(),f["ɵeld"](0,null,null,0,"div",[["class","close"]],null,[[null,"click"]],function(l,n,u){var e=!0,t=l.component;return"click"===n&&(e=!1!==t.close()&&e),e},null,null)),(l()(),f["ɵted"](null,["\n    "])),(l()(),f["ɵeld"](0,null,null,20,"div",[["class","user_section "]],null,null,null,null,null)),(l()(),f["ɵted"](null,["\n      "])),(l()(),f["ɵeld"](0,null,null,17,"div",[["class","user_section1"]],null,null,null,null,null)),(l()(),f["ɵted"](null,["\n        "])),(l()(),f["ɵeld"](0,null,null,3,"div",[["class","user_image"]],null,null,null,null,null)),(l()(),f["ɵted"](null,["\n          "])),(l()(),f["ɵeld"](0,null,null,0,"img",[["src","assets/avata/avata.jpg"]],null,null,null,null,null)),(l()(),f["ɵted"](null,["\n        "])),(l()(),f["ɵted"](null,["\n        "])),(l()(),f["ɵeld"](0,null,null,9,"div",[["class","user_details"]],null,null,null,null,null)),(l()(),f["ɵted"](null,["\n          "])),(l()(),f["ɵeld"](0,null,null,1,"span",[],null,null,null,null,null)),(l()(),f["ɵted"](null,["",""])),(l()(),f["ɵted"](null,["\n          "])),(l()(),f["ɵeld"](0,null,null,0,"br",[],null,null,null,null,null)),(l()(),f["ɵted"](null,["\n          "])),(l()(),f["ɵeld"](0,null,null,1,"span",[],null,null,null,null,null)),(l()(),f["ɵted"](null,["",""])),(l()(),f["ɵted"](null,["\n        "])),(l()(),f["ɵted"](null,["\n      "])),(l()(),f["ɵted"](null,["\n    "])),(l()(),f["ɵted"](null,["\n    "])),(l()(),f["ɵeld"](0,null,null,8,"div",[["class","messaging"]],null,null,null,null,null)),(l()(),f["ɵted"](null,["\n      "])),(l()(),f["ɵeld"](0,null,null,5,"ion-list",[],null,null,null,null,null)),f["ɵdid"](16384,null,0,wl.a,[nl.a,f.ElementRef,f.Renderer,ul.a,el.l,dl.a],null,null),(l()(),f["ɵted"](null,["\n        "])),(l()(),f["ɵand"](16777216,null,null,1,null,c)),f["ɵdid"](802816,null,0,Il.i,[f.ViewContainerRef,f.TemplateRef,f.IterableDiffers],{ngForOf:[0,"ngForOf"]},null),(l()(),f["ɵted"](null,["\n      "])),(l()(),f["ɵted"](null,["\n    "])),(l()(),f["ɵted"](null,["\n\n    "])),(l()(),f["ɵeld"](0,null,null,10,"div",[["class","sendmessage"]],null,null,null,null,null)),(l()(),f["ɵted"](null,["\n      "])),(l()(),f["ɵeld"](0,[[2,0],["txt",1]],null,5,"input",[["placeholder","Send message..."],["style","width: 90%; height: 100%; padding-left: 5px;"],["type","text"],["value",""]],[[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],[[null,"keyup"],[null,"ngModelChange"],[null,"input"],[null,"blur"],[null,"compositionstart"],[null,"compositionend"]],function(l,n,u){var e=!0,t=l.component;return"input"===n&&(e=!1!==f["ɵnov"](l,45)._handleInput(u.target.value)&&e),"blur"===n&&(e=!1!==f["ɵnov"](l,45).onTouched()&&e),"compositionstart"===n&&(e=!1!==f["ɵnov"](l,45)._compositionStart()&&e),"compositionend"===n&&(e=!1!==f["ɵnov"](l,45)._compositionEnd(u.target.value)&&e),"keyup"===n&&(e=!1!==t.updateList(u)&&e),"ngModelChange"===n&&(e=!1!==(t.textMessage=u)&&e),e},null,null)),f["ɵdid"](16384,null,0,Al.b,[f.Renderer2,f.ElementRef,[2,Al.a]],null,null),f["ɵprd"](1024,null,Al.e,function(l){return[l]},[Al.b]),f["ɵdid"](671744,null,0,Al.h,[[8,null],[8,null],[8,null],[2,Al.e]],{model:[0,"model"]},{update:"ngModelChange"}),f["ɵprd"](2048,null,Al.f,null,[Al.h]),f["ɵdid"](16384,null,0,Al.g,[Al.f],null,null),(l()(),f["ɵted"](null,["\n      "])),(l()(),f["ɵeld"](0,null,null,0,"button",[["class","send"]],[[8,"disabled",0]],[[null,"click"]],function(l,n,u){var e=!0,t=l.component;return"click"===n&&(e=!1!==t.sendMessage()&&e),e},null,null)),(l()(),f["ɵted"](null,["\n    "])),(l()(),f["ɵted"](null,["\n  "])),(l()(),f["ɵted"](1,["\n\n\n"]))],function(l,n){var u=n.component;l(n,38,0,u.messeges),l(n,47,0,u.textMessage)},function(l,n){var u=n.component;l(n,3,0,f["ɵnov"](n,4).statusbarPadding,f["ɵnov"](n,4)._hasRefresher),l(n,22,0,u.name),l(n,27,0,u.email),l(n,44,0,f["ɵnov"](n,49).ngClassUntouched,f["ɵnov"](n,49).ngClassTouched,f["ɵnov"](n,49).ngClassPristine,f["ɵnov"](n,49).ngClassDirty,f["ɵnov"](n,49).ngClassValid,f["ɵnov"](n,49).ngClassInvalid,f["ɵnov"](n,49).ngClassPending),l(n,51,0,!u.textMessage)})}Object.defineProperty(n,"__esModule",{value:!0});var p=u(33),f=u(0),g=u(4),v=(u(336),function(){function l(){this.friends=[{id:1,name:"Jon Snow",email:"snow@gmail.com",status:"available"},{id:2,name:"Tyrion Lannister",email:"Tyrion@gmail.com",status:"away"},{id:3,name:"Daenerys Targaryen",email:"Daenerys@gmail.com",status:"available"},{id:4,name:"Arya Stark",email:"Arya@gmail.com",status:"away"}],console.log("Hello MessageProvider Provider")}return l.prototype.getStudentsFromBranch=function(l){return{1:[{message:"Hi there!",type:"left",timestamp:1506669284e3},{message:"Hi",type:"right",timestamp:1506669284e3},{message:"I need your army to defeat the dead",type:"left",timestamp:1506669284e3}],2:[{message:"Hey!",type:"left",timestamp:1506669284e3},{message:"Hi",type:"right",timestamp:1506669284e3}],3:[{message:"Hi there!",type:"left",timestamp:1506669284e3}],4:[{message:"Hi there! Do you in my list",type:"left",timestamp:1506669284e3},{message:"Im not sure",type:"right",timestamp:1506669284e3}]}[l]},l}());v=Object(g.__decorate)([Object(f.Injectable)(),Object(g.__metadata)("design:paramtypes",[])],v);var h=u(34),j=function(){function l(l,n,u,e){this.navCtrl=l,this.navParams=n,this.messsageing=u,this.viewCtrl=e,this.messeges=[];var t=n.get("user");this.name=t.name,this.email=t.email,this.messeges=this.messsageing.getStudentsFromBranch(t.id)}return l.prototype.ionViewDidLoad=function(){console.log("ionViewDidLoad ChatUserPage")},l.prototype.updateList=function(l){"Enter"===l.key&&l.srcElement&&this.sendMessage()},l.prototype.sendMessage=function(){var l=this;this.messeges.push({message:this.textMessage,type:"right",timestamp:(new Date).getTime()}),this.textMessage="",setTimeout(function(){try{l.content.scrollToBottom()}catch(l){console.log("catch an error ",l)}},100),this.txt.nativeElement.focus()},l.prototype.close=function(){this.viewCtrl.dismiss()},l}();Object(g.__decorate)([Object(f.ViewChild)(h.a),Object(g.__metadata)("design:type","function"==typeof(b=void 0!==h.a&&h.a)&&b||Object)],j.prototype,"content",void 0),Object(g.__decorate)([Object(f.ViewChild)("txt"),Object(g.__metadata)("design:type",Object)],j.prototype,"txt",void 0),j=Object(g.__decorate)([Object(f.Component)({selector:"page-chat-user",templateUrl:"chat-user.html"}),Object(g.__metadata)("design:paramtypes",["function"==typeof(y=void 0!==h.f&&h.f)&&y||Object,"function"==typeof(k=void 0!==h.g&&h.g)&&k||Object,"function"==typeof(w=void 0!==v&&v)&&w||Object,"function"==typeof(R=void 0!==h.i&&h.i)&&R||Object])],j);var b,y,k,w,R,_=function(){function l(l,n,u,e){this.navCtrl=l,this.navParams=n,this.messsageing=u,this.modalCtrl=e,this.type="friends",this.name="",this.email="",this.friends=[],this.messeges=[],this.friends=this.messsageing.friends}return l.prototype.clickTab=function(l){this.type=l},l.prototype.ionViewDidLoad=function(){console.log("ionViewDidLoad ChatPage")},l.prototype.close=function(){this.type="friends"},l.prototype.clickUser=function(l){this.modalCtrl.create(j,{user:l}).present()},l}();_=Object(g.__decorate)([Object(f.Component)({selector:"page-chat",templateUrl:"chat.html"}),Object(g.__metadata)("design:paramtypes",["function"==typeof(C=void 0!==h.f&&h.f)&&C||Object,"function"==typeof(O=void 0!==h.g&&h.g)&&O||Object,"function"==typeof(z=void 0!==v&&v)&&z||Object,"function"==typeof(E=void 0!==h.e&&h.e)&&E||Object])],_);var C,O,z,E,I=u(74),x=u(75),D=function(){return function(l,n,u){this.rootPage=_,l.ready().then(function(){n.styleDefault(),u.hide()})}}();D=Object(g.__decorate)([Object(f.Component)({templateUrl:"app.html"}),Object(g.__metadata)("design:paramtypes",["function"==typeof(M=void 0!==h.h&&h.h)&&M||Object,"function"==typeof(P=void 0!==x.a&&x.a)&&P||Object,"function"==typeof(T=void 0!==I.a&&I.a)&&T||Object])],D);var M,P,T,L=function(){return function(l){this.navCtrl=l}}();L=Object(g.__decorate)([Object(f.Component)({selector:"page-home",templateUrl:"home.html"}),Object(g.__metadata)("design:paramtypes",["function"==typeof(A=void 0!==h.f&&h.f)&&A||Object])],L);var A,V=u(347),N=function(){return function(){}}();N=Object(g.__decorate)([Object(f.NgModule)({declarations:[D,L,_,j],imports:[p.a,V.MomentModule,h.d.forRoot(D,{},{links:[]})],bootstrap:[h.b],entryComponents:[D,L,_,j],providers:[x.a,I.a,{provide:f.ErrorHandler,useClass:h.c},v]})],N);var q=u(48),F=u(351),S=u(352),Z=u(353),$=u(354),H=u(355),U=u(356),K=u(357),B=u(358),J=u(359),Y=u(360),G=u(37),Q=u(54),W=u(6),X=u(17),ll=u(9),nl=u(2),ul=u(5),el=u(7),tl=u(30),al=u(16),dl=u(10),sl=[],il=f["ɵcrt"]({encapsulation:2,styles:sl,data:{}}),ol=f["ɵccf"]("ng-component",D,function(l){return f["ɵvid"](0,[(l()(),f["ɵeld"](0,null,null,1,"ng-component",[],null,null,null,e,il)),f["ɵdid"](49152,null,0,D,[ul.a,x.a,I.a],null,null)],null,null)},{},{},[]),rl=u(73),cl=u(317),ml=u(26),pl=u(318),fl=u(56),gl=u(38),vl=u(116),hl=u(21),jl=u(23),bl=[],yl=f["ɵcrt"]({encapsulation:2,styles:bl,data:{}}),kl=f["ɵccf"]("page-home",L,function(l){return f["ɵvid"](0,[(l()(),f["ɵeld"](0,null,null,1,"page-home",[],null,null,null,t,yl)),f["ɵdid"](49152,null,0,L,[X.a],null,null)],null,null)},{},{},[]),wl=u(43),Rl=u(115),_l=u(18),Cl=u(15),Ol=u(36),zl=u(53),El=u(87),Il=u(12),xl=u(11),Dl=u(67),Ml=[],Pl=f["ɵcrt"]({encapsulation:2,styles:Ml,data:{}}),Tl=f["ɵccf"]("page-chat",_,function(l){return f["ɵvid"](0,[(l()(),f["ɵeld"](0,null,null,1,"page-chat",[],null,null,null,r,Pl)),f["ɵdid"](49152,null,0,_,[X.a,xl.a,v,Dl.a],null,null)],null,null)},{},{},[]),Ll=u(114),Al=u(20),Vl=[],Nl=f["ɵcrt"]({encapsulation:2,styles:Vl,data:{}}),ql=f["ɵccf"]("page-chat-user",j,function(l){return f["ɵvid"](0,[(l()(),f["ɵeld"](0,null,null,1,"page-chat-user",[],null,null,null,m,Nl)),f["ɵdid"](49152,null,0,j,[X.a,xl.a,v,W.a],null,null)],null,null)},{},{},[]),Fl=u(113),Sl=u(84),Zl=u(86),$l=u(110),Hl=u(32),Ul=u(92),Kl=u(184),Bl=u(50),Jl=u(44),Yl=u(61),Gl=u(98),Ql=u(109),Wl=u(105),Xl=u(183),ln=u(111),nn=u(28),un=u(93),en=u(112),tn=u(312),an=f["ɵcmf"](N,[q.b],function(l){return f["ɵmod"]([f["ɵmpd"](512,f.ComponentFactoryResolver,f["ɵCodegenComponentFactoryResolver"],[[8,[F.a,S.a,Z.a,$.a,H.a,U.a,K.a,B.a,J.a,ol,kl,Tl,ql]],[3,f.ComponentFactoryResolver],f.NgModuleRef]),f["ɵmpd"](5120,f.LOCALE_ID,f["ɵm"],[[3,f.LOCALE_ID]]),f["ɵmpd"](4608,Il.l,Il.k,[f.LOCALE_ID]),f["ɵmpd"](5120,f.APP_ID,f["ɵf"],[]),f["ɵmpd"](5120,f.IterableDiffers,f["ɵk"],[]),f["ɵmpd"](5120,f.KeyValueDiffers,f["ɵl"],[]),f["ɵmpd"](4608,p.c,p.s,[Il.c]),f["ɵmpd"](6144,f.Sanitizer,null,[p.c]),f["ɵmpd"](4608,p.f,Fl.a,[]),f["ɵmpd"](5120,p.d,function(l,n,u,e){return[new p.l(l),new p.p(n),new p.o(u,e)]},[Il.c,Il.c,Il.c,p.f]),f["ɵmpd"](4608,p.e,p.e,[p.d,f.NgZone]),f["ɵmpd"](135680,p.n,p.n,[Il.c]),f["ɵmpd"](4608,p.m,p.m,[p.e,p.n]),f["ɵmpd"](6144,f.RendererFactory2,null,[p.m]),f["ɵmpd"](6144,p.q,null,[p.n]),f["ɵmpd"](4608,f.Testability,f.Testability,[f.NgZone]),f["ɵmpd"](4608,p.h,p.h,[Il.c]),f["ɵmpd"](4608,p.j,p.j,[Il.c]),f["ɵmpd"](4608,Al.k,Al.k,[]),f["ɵmpd"](4608,Al.c,Al.c,[]),f["ɵmpd"](4608,Sl.a,Sl.a,[ll.a,nl.a]),f["ɵmpd"](4608,Zl.a,Zl.a,[ll.a,nl.a]),f["ɵmpd"](4608,$l.a,$l.a,[]),f["ɵmpd"](4608,Cl.a,Cl.a,[]),f["ɵmpd"](4608,Hl.a,Hl.a,[ul.a]),f["ɵmpd"](4608,jl.a,jl.a,[nl.a,ul.a,f.NgZone,dl.a]),f["ɵmpd"](4608,Ul.a,Ul.a,[ll.a,nl.a]),f["ɵmpd"](5120,Il.g,Kl.b,[Il.r,[2,Il.a],nl.a]),f["ɵmpd"](4608,Il.f,Il.f,[Il.g]),f["ɵmpd"](5120,Bl.b,Bl.d,[ll.a,Bl.a]),f["ɵmpd"](5120,al.a,al.b,[ll.a,Bl.b,Il.f,Jl.b,f.ComponentFactoryResolver]),f["ɵmpd"](4608,Dl.a,Dl.a,[ll.a,nl.a,al.a]),f["ɵmpd"](4608,Yl.a,Yl.a,[ll.a,nl.a]),f["ɵmpd"](4608,Gl.a,Gl.a,[ll.a,nl.a,al.a]),f["ɵmpd"](4608,Ql.a,Ql.a,[nl.a,ul.a,dl.a,ll.a,el.l]),f["ɵmpd"](4608,Wl.a,Wl.a,[ll.a,nl.a]),f["ɵmpd"](4608,tl.a,tl.a,[ul.a,nl.a]),f["ɵmpd"](4608,x.a,x.a,[]),f["ɵmpd"](4608,I.a,I.a,[]),f["ɵmpd"](4608,v,v,[]),f["ɵmpd"](512,Il.b,Il.b,[]),f["ɵmpd"](512,f.ErrorHandler,Xl.a,[]),f["ɵmpd"](256,nl.b,{},[]),f["ɵmpd"](1024,ln.a,ln.b,[]),f["ɵmpd"](1024,ul.a,ul.b,[p.b,ln.a,f.NgZone]),f["ɵmpd"](1024,nl.a,nl.c,[nl.b,ul.a]),f["ɵmpd"](512,dl.a,dl.a,[ul.a]),f["ɵmpd"](512,nn.a,nn.a,[]),f["ɵmpd"](512,ll.a,ll.a,[nl.a,ul.a,[2,nn.a]]),f["ɵmpd"](512,el.l,el.l,[ll.a]),f["ɵmpd"](256,Bl.a,{links:[]},[]),f["ɵmpd"](512,f.Compiler,f.Compiler,[]),f["ɵmpd"](512,un.a,un.a,[f.Compiler]),f["ɵmpd"](1024,Jl.b,Jl.c,[un.a,f.Injector]),f["ɵmpd"](1024,f.APP_INITIALIZER,function(l,n,u,e,t,a,d,s,i,o,r,c,m,f){return[p.r(l,n),en.a(u),$l.b(e,t),Ql.b(a,d,s,i,o),Jl.d(r,c,m,f)]},[[2,p.i],[2,f.NgProbeToken],nl.a,ul.a,dl.a,nl.a,ul.a,dl.a,ll.a,el.l,nl.a,Bl.a,Jl.b,f.NgZone]),f["ɵmpd"](512,f.ApplicationInitStatus,f.ApplicationInitStatus,[[2,f.APP_INITIALIZER]]),f["ɵmpd"](131584,f["ɵe"],f["ɵe"],[f.NgZone,f["ɵConsole"],f.Injector,f.ErrorHandler,f.ComponentFactoryResolver,f.ApplicationInitStatus]),f["ɵmpd"](2048,f.ApplicationRef,null,[f["ɵe"]]),f["ɵmpd"](512,f.ApplicationModule,f.ApplicationModule,[f.ApplicationRef]),f["ɵmpd"](512,p.a,p.a,[[3,p.a]]),f["ɵmpd"](512,tn.MomentModule,tn.MomentModule,[]),f["ɵmpd"](512,Al.j,Al.j,[]),f["ɵmpd"](512,Al.d,Al.d,[]),f["ɵmpd"](512,Al.i,Al.i,[]),f["ɵmpd"](512,Kl.a,Kl.a,[]),f["ɵmpd"](512,N,N,[]),f["ɵmpd"](256,q.a,D,[]),f["ɵmpd"](256,Il.a,"/",[])])});Object(f.enableProdMode)(),Object(p.k)().bootstrapModuleFactory(an)},349:function(l,n,u){function e(l){return u(t(l))}function t(l){var n=a[l];if(!(n+1))throw new Error("Cannot find module '"+l+"'.");return n}var a={"./af":188,"./af.js":188,"./ar":189,"./ar-dz":190,"./ar-dz.js":190,"./ar-kw":191,"./ar-kw.js":191,"./ar-ly":192,"./ar-ly.js":192,"./ar-ma":193,"./ar-ma.js":193,"./ar-sa":194,"./ar-sa.js":194,"./ar-tn":195,"./ar-tn.js":195,"./ar.js":189,"./az":196,"./az.js":196,"./be":197,"./be.js":197,"./bg":198,"./bg.js":198,"./bm":199,"./bm.js":199,"./bn":200,"./bn.js":200,"./bo":201,"./bo.js":201,"./br":202,"./br.js":202,"./bs":203,"./bs.js":203,"./ca":204,"./ca.js":204,"./cs":205,"./cs.js":205,"./cv":206,"./cv.js":206,"./cy":207,"./cy.js":207,"./da":208,"./da.js":208,"./de":209,"./de-at":210,"./de-at.js":210,"./de-ch":211,"./de-ch.js":211,"./de.js":209,"./dv":212,"./dv.js":212,"./el":213,"./el.js":213,"./en-au":214,"./en-au.js":214,"./en-ca":215,"./en-ca.js":215,"./en-gb":216,"./en-gb.js":216,"./en-ie":217,"./en-ie.js":217,"./en-nz":218,"./en-nz.js":218,"./eo":219,"./eo.js":219,"./es":220,"./es-do":221,"./es-do.js":221,"./es-us":222,"./es-us.js":222,"./es.js":220,"./et":223,"./et.js":223,"./eu":224,"./eu.js":224,"./fa":225,"./fa.js":225,"./fi":226,"./fi.js":226,"./fo":227,"./fo.js":227,"./fr":228,"./fr-ca":229,"./fr-ca.js":229,"./fr-ch":230,"./fr-ch.js":230,"./fr.js":228,"./fy":231,"./fy.js":231,"./gd":232,"./gd.js":232,"./gl":233,"./gl.js":233,"./gom-latn":234,"./gom-latn.js":234,"./gu":235,"./gu.js":235,"./he":236,"./he.js":236,"./hi":237,"./hi.js":237,"./hr":238,"./hr.js":238,"./hu":239,"./hu.js":239,"./hy-am":240,"./hy-am.js":240,"./id":241,"./id.js":241,"./is":242,"./is.js":242,"./it":243,"./it.js":243,"./ja":244,"./ja.js":244,"./jv":245,"./jv.js":245,"./ka":246,"./ka.js":246,"./kk":247,"./kk.js":247,"./km":248,"./km.js":248,"./kn":249,"./kn.js":249,"./ko":250,"./ko.js":250,"./ky":251,"./ky.js":251,"./lb":252,"./lb.js":252,"./lo":253,"./lo.js":253,"./lt":254,"./lt.js":254,"./lv":255,"./lv.js":255,"./me":256,"./me.js":256,"./mi":257,"./mi.js":257,"./mk":258,"./mk.js":258,"./ml":259,"./ml.js":259,"./mr":260,"./mr.js":260,"./ms":261,"./ms-my":262,"./ms-my.js":262,"./ms.js":261,"./my":263,"./my.js":263,"./nb":264,"./nb.js":264,"./ne":265,"./ne.js":265,"./nl":266,"./nl-be":267,"./nl-be.js":267,"./nl.js":266,"./nn":268,"./nn.js":268,"./pa-in":269,"./pa-in.js":269,"./pl":270,"./pl.js":270,"./pt":271,"./pt-br":272,"./pt-br.js":272,"./pt.js":271,"./ro":273,"./ro.js":273,"./ru":274,"./ru.js":274,"./sd":275,"./sd.js":275,"./se":276,"./se.js":276,"./si":277,"./si.js":277,"./sk":278,"./sk.js":278,"./sl":279,"./sl.js":279,"./sq":280,"./sq.js":280,"./sr":281,"./sr-cyrl":282,"./sr-cyrl.js":282,"./sr.js":281,"./ss":283,"./ss.js":283,"./sv":284,"./sv.js":284,"./sw":285,"./sw.js":285,"./ta":286,"./ta.js":286,"./te":287,"./te.js":287,"./tet":288,"./tet.js":288,"./th":289,"./th.js":289,"./tl-ph":290,"./tl-ph.js":290,"./tlh":291,"./tlh.js":291,"./tr":292,"./tr.js":292,"./tzl":293,"./tzl.js":293,"./tzm":294,"./tzm-latn":295,"./tzm-latn.js":295,"./tzm.js":294,"./uk":296,"./uk.js":296,"./ur":297,"./ur.js":297,"./uz":298,"./uz-latn":299,"./uz-latn.js":299,"./uz.js":298,"./vi":300,"./vi.js":300,"./x-pseudo":301,"./x-pseudo.js":301,"./yo":302,"./yo.js":302,"./zh-cn":303,"./zh-cn.js":303,"./zh-hk":304,"./zh-hk.js":304,"./zh-tw":305,"./zh-tw.js":305};e.keys=function(){return Object.keys(a)},e.resolve=t,l.exports=e,e.id=349}},[319]);
+webpackJsonp([0],{
+
+/***/ 109:
+/***/ (function(module, exports) {
+
+function webpackEmptyAsyncContext(req) {
+	// Here Promise.resolve().then() is used instead of new Promise() to prevent
+	// uncatched exception popping up in devtools
+	return Promise.resolve().then(function() {
+		throw new Error("Cannot find module '" + req + "'.");
+	});
+}
+webpackEmptyAsyncContext.keys = function() { return []; };
+webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
+module.exports = webpackEmptyAsyncContext;
+webpackEmptyAsyncContext.id = 109;
+
+/***/ }),
+
+/***/ 110:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ChatUserPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__providers_message_message__ = __webpack_require__(56);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(25);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+/**
+ * Generated class for the ChatUserPage page.
+ *
+ * See https://ionicframework.com/docs/components/#navigation for more info on
+ * Ionic pages and navigation.
+ */
+var ChatUserPage = (function () {
+    function ChatUserPage(navCtrl, navParams, messsageing, viewCtrl) {
+        var _this = this;
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        this.messsageing = messsageing;
+        this.viewCtrl = viewCtrl;
+        this.messeges = [];
+        this.fieldOnfocus = false;
+        var user = navParams.get('user');
+        this.name = user.name;
+        this.email = user.email;
+        this.messeges = this.messsageing.getStudentsFromBranch(user.id);
+        setTimeout(function () {
+            try {
+                _this.content.scrollToBottom();
+            }
+            catch (error) {
+                console.log('catch an error ', error);
+            }
+        }, 100);
+    }
+    ChatUserPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad ChatUserPage');
+    };
+    ChatUserPage.prototype.onfocus = function () {
+        console.log("div the field");
+        this.fieldOnfocus = false;
+    };
+    ChatUserPage.prototype.onfocusinput = function () {
+        console.log("input the field");
+        this.fieldOnfocus = true;
+    };
+    ChatUserPage.prototype.updateList = function (event) {
+        if (event.key === 'Enter' && event.srcElement) {
+            this.sendMessage();
+        }
+    };
+    ChatUserPage.prototype.sendMessage = function () {
+        var _this = this;
+        this.messeges.push({
+            message: this.textMessage,
+            type: "right",
+            timestamp: new Date().getTime()
+        });
+        this.textMessage = "";
+        setTimeout(function () {
+            try {
+                _this.content.scrollToBottom();
+            }
+            catch (error) {
+                console.log('catch an error ', error);
+            }
+        }, 100);
+        console.log(this.fieldOnfocus);
+        if (this.fieldOnfocus) {
+            this.txt.nativeElement.focus();
+        }
+    };
+    ChatUserPage.prototype.close = function () {
+        this.viewCtrl.dismiss();
+    };
+    return ChatUserPage;
+}());
+__decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["ViewChild"])(__WEBPACK_IMPORTED_MODULE_2_ionic_angular__["a" /* Content */]),
+    __metadata("design:type", __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["a" /* Content */])
+], ChatUserPage.prototype, "content", void 0);
+__decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["ViewChild"])('txt'),
+    __metadata("design:type", Object)
+], ChatUserPage.prototype, "txt", void 0);
+ChatUserPage = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["Component"])({
+        selector: 'page-chat-user',template:/*ion-inline-start:"/Users/samithakahawala/Desktop/my Projects/ChatApp/src/pages/chat-user/chat-user.html"*/'<!--\n  Generated template for the ChatUserPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-content class="pt-page-scaleUp">\n  <div>\n    <div (click)="close()" class="close"></div>\n    <div class="user_section ">\n      <div class="user_section1">\n        <div class="user_image">\n          <img src="assets/avata/avata.jpg">\n        </div>\n        <div class="user_details">\n          <span>{{name}}</span>\n          <br/>\n          <span>{{email}}</span>\n        </div>\n      </div>\n    </div>\n    <div class="messaging">\n      <ion-list (click)="onfocus()">\n        <ion-item style="padding-left: 0px;" *ngFor="let messege of messeges">\n          <div [ngClass]="{\'right\': (messege.type == \'right\'), \'left\':(messege.type == \'left\')}" class="message">\n            <img src="assets/avata/avata.jpg" />\n            <div class="bubble">\n              <p>{{messege.message}}</p>\n              <div class="corner"></div>\n              <span>{{messege.timestamp | amTimeAgo}}</span>\n            </div>\n          </div>\n        </ion-item>\n      </ion-list>\n    </div>\n\n    <div class="sendmessage">\n      <input (focus)="onfocusinput()" #txt (keyup)="updateList($event)" [(ngModel)]="textMessage" style="width: 85%; height: 100%; padding-left: 5px;" type="text" placeholder="Send message..."\n        value="" />\n      <button (click)="sendMessage()" [disabled]="!(textMessage)" class="send"></button>\n    </div>\n  </div>\n\n\n</ion-content>'/*ion-inline-end:"/Users/samithakahawala/Desktop/my Projects/ChatApp/src/pages/chat-user/chat-user.html"*/,
+    }),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_2_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["g" /* NavParams */], __WEBPACK_IMPORTED_MODULE_0__providers_message_message__["a" /* MessageProvider */], __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["i" /* ViewController */]])
+], ChatUserPage);
+
+//# sourceMappingURL=chat-user.js.map
+
+/***/ }),
+
+/***/ 152:
+/***/ (function(module, exports) {
+
+function webpackEmptyAsyncContext(req) {
+	// Here Promise.resolve().then() is used instead of new Promise() to prevent
+	// uncatched exception popping up in devtools
+	return Promise.resolve().then(function() {
+		throw new Error("Cannot find module '" + req + "'.");
+	});
+}
+webpackEmptyAsyncContext.keys = function() { return []; };
+webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
+module.exports = webpackEmptyAsyncContext;
+webpackEmptyAsyncContext.id = 152;
+
+/***/ }),
+
+/***/ 192:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ChatPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__chat_user_chat_user__ = __webpack_require__(110);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__providers_message_message__ = __webpack_require__(56);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_ionic_angular__ = __webpack_require__(25);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+/**
+ * Generated class for the ChatPage page.
+ *
+ * See https://ionicframework.com/docs/components/#navigation for more info on
+ * Ionic pages and navigation.
+ */
+var ChatPage = (function () {
+    function ChatPage(navCtrl, navParams, messsageing, modalCtrl) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        this.messsageing = messsageing;
+        this.modalCtrl = modalCtrl;
+        this.type = 'friends';
+        this.name = "";
+        this.email = "";
+        this.friends = [];
+        this.messeges = [];
+        this.friends = this.messsageing.friends;
+    }
+    ChatPage.prototype.clickTab = function (event) {
+        this.type = event;
+    };
+    ChatPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad ChatPage');
+    };
+    ChatPage.prototype.close = function () {
+        this.type = "friends";
+    };
+    ChatPage.prototype.clickUser = function (user) {
+        var profileModal = this.modalCtrl.create(__WEBPACK_IMPORTED_MODULE_0__chat_user_chat_user__["a" /* ChatUserPage */], { user: user });
+        profileModal.present();
+    };
+    return ChatPage;
+}());
+ChatPage = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_2__angular_core__["Component"])({
+        selector: 'page-chat',template:/*ion-inline-start:"/Users/samithakahawala/Desktop/my Projects/ChatApp/src/pages/chat/chat.html"*/'<!--\n  Generated template for the ChatPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar *ngIf="!(type == \'chat\')">\n    <ion-title>chat</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content>\n\n  <div id="topmenu">\n    <span (click)="clickTab(\'friends\')" [ngClass]="{\'active\':(type == \'friends\')}" class="friends"></span>\n    <!-- <span (click)="clickTab(\'chat\')" [ngClass]="{\'active\':(type == \'chat\')}" class="chats"></span> -->\n    <span (click)="clickTab(\'history\')" [ngClass]="{\'active\':(type == \'history\')}" class="history"></span>\n  </div>\n\n  <div class="show-friends" *ngIf="type == \'friends\'">\n    <ion-list *ngFor="let friend of friends">\n      <ion-item (click)="clickUser(friend)">\n        <ion-avatar item-start>\n          <img src="assets/avata/avata.jpg">\n        </ion-avatar>\n        <h2>{{friend.name}}</h2>\n        <p>{{friend.email}}</p>\n        <div [ngClass]="{\'away\': (friend.status == \'away\'), \'inactive\':(friend.status == \'inactive\')}" class="status"></div>\n      </ion-item>\n    </ion-list>\n  </div>\n\n\n  <div *ngIf="type == \'chat\'">\n    <div (click)="close()" class="close"></div>\n    <div class="user_section">\n      <div class="user_section1">\n        <div class="user_image">\n          <img src="assets/avata/avata.jpg">\n        </div>\n        <div class="user_details">\n          <span>{{name}}</span>\n          <br/>\n          <span>{{email}}</span>\n        </div>\n      </div>\n    </div>\n\n    <div class="messaging">\n      <ion-list>\n        <ion-item *ngFor="let messege of messeges">\n          <div [ngClass]="{\'right\': (messege.type == \'right\'), \'left\':(messege.type == \'left\')}" class="message">\n            <img src="assets/avata/avata.jpg" />\n            <div class="bubble">\n              {{messege.message}}\n              <div class="corner"></div>\n              <span>{{messege.timestamp | date}}</span>\n            </div>\n          </div>\n        </ion-item>\n      </ion-list>\n    </div>\n    <div class="sendmessages">\n      <input style="width: 90%; height: 100%;" type="text" placeholder="Send message..." value="" />\n      <button class="send"></button>\n    </div>\n  </div>\n\n</ion-content>'/*ion-inline-end:"/Users/samithakahawala/Desktop/my Projects/ChatApp/src/pages/chat/chat.html"*/,
+    }),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_3_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_3_ionic_angular__["g" /* NavParams */], __WEBPACK_IMPORTED_MODULE_1__providers_message_message__["a" /* MessageProvider */], __WEBPACK_IMPORTED_MODULE_3_ionic_angular__["e" /* ModalController */]])
+], ChatPage);
+
+//# sourceMappingURL=chat.js.map
+
+/***/ }),
+
+/***/ 327:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(328);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(346);
+
+
+Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* platformBrowserDynamic */])().bootstrapModule(__WEBPACK_IMPORTED_MODULE_1__app_module__["a" /* AppModule */]);
+//# sourceMappingURL=main.js.map
+
+/***/ }),
+
+/***/ 346:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__pages_chat_user_chat_user__ = __webpack_require__(110);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__pages_chat_chat__ = __webpack_require__(192);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_platform_browser__ = __webpack_require__(31);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_ionic_angular__ = __webpack_require__(25);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ionic_native_splash_screen__ = __webpack_require__(193);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ionic_native_status_bar__ = __webpack_require__(196);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__app_component__ = __webpack_require__(395);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_home_home__ = __webpack_require__(396);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__providers_message_message__ = __webpack_require__(56);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10_angular2_moment__ = __webpack_require__(397);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10_angular2_moment___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_10_angular2_moment__);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+
+
+
+
+
+
+
+
+var AppModule = (function () {
+    function AppModule() {
+    }
+    return AppModule;
+}());
+AppModule = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_3__angular_core__["NgModule"])({
+        declarations: [
+            __WEBPACK_IMPORTED_MODULE_7__app_component__["a" /* MyApp */],
+            __WEBPACK_IMPORTED_MODULE_8__pages_home_home__["a" /* HomePage */],
+            __WEBPACK_IMPORTED_MODULE_1__pages_chat_chat__["a" /* ChatPage */],
+            __WEBPACK_IMPORTED_MODULE_0__pages_chat_user_chat_user__["a" /* ChatUserPage */]
+        ],
+        imports: [
+            __WEBPACK_IMPORTED_MODULE_2__angular_platform_browser__["a" /* BrowserModule */],
+            __WEBPACK_IMPORTED_MODULE_10_angular2_moment__["MomentModule"],
+            __WEBPACK_IMPORTED_MODULE_4_ionic_angular__["d" /* IonicModule */].forRoot(__WEBPACK_IMPORTED_MODULE_7__app_component__["a" /* MyApp */], {}, {
+                links: []
+            })
+        ],
+        bootstrap: [__WEBPACK_IMPORTED_MODULE_4_ionic_angular__["b" /* IonicApp */]],
+        entryComponents: [
+            __WEBPACK_IMPORTED_MODULE_7__app_component__["a" /* MyApp */],
+            __WEBPACK_IMPORTED_MODULE_8__pages_home_home__["a" /* HomePage */],
+            __WEBPACK_IMPORTED_MODULE_1__pages_chat_chat__["a" /* ChatPage */],
+            __WEBPACK_IMPORTED_MODULE_0__pages_chat_user_chat_user__["a" /* ChatUserPage */]
+        ],
+        providers: [
+            __WEBPACK_IMPORTED_MODULE_6__ionic_native_status_bar__["a" /* StatusBar */],
+            __WEBPACK_IMPORTED_MODULE_5__ionic_native_splash_screen__["a" /* SplashScreen */],
+            { provide: __WEBPACK_IMPORTED_MODULE_3__angular_core__["ErrorHandler"], useClass: __WEBPACK_IMPORTED_MODULE_4_ionic_angular__["c" /* IonicErrorHandler */] },
+            __WEBPACK_IMPORTED_MODULE_9__providers_message_message__["a" /* MessageProvider */]
+        ]
+    })
+], AppModule);
+
+//# sourceMappingURL=app.module.js.map
+
+/***/ }),
+
+/***/ 395:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MyApp; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__pages_chat_chat__ = __webpack_require__(192);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(25);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_status_bar__ = __webpack_require__(196);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_native_splash_screen__ = __webpack_require__(193);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+var MyApp = (function () {
+    function MyApp(platform, statusBar, splashScreen) {
+        this.rootPage = __WEBPACK_IMPORTED_MODULE_0__pages_chat_chat__["a" /* ChatPage */];
+        platform.ready().then(function () {
+            // Okay, so the platform is ready and our plugins are available.
+            // Here you can do any higher level native things you might need.
+            statusBar.styleDefault();
+            splashScreen.hide();
+        });
+    }
+    return MyApp;
+}());
+MyApp = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["Component"])({template:/*ion-inline-start:"/Users/samithakahawala/Desktop/my Projects/ChatApp/src/app/app.html"*/'<ion-nav [root]="rootPage"></ion-nav>\n'/*ion-inline-end:"/Users/samithakahawala/Desktop/my Projects/ChatApp/src/app/app.html"*/
+    }),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_2_ionic_angular__["h" /* Platform */], __WEBPACK_IMPORTED_MODULE_3__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_4__ionic_native_splash_screen__["a" /* SplashScreen */]])
+], MyApp);
+
+//# sourceMappingURL=app.component.js.map
+
+/***/ }),
+
+/***/ 396:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HomePage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(25);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+var HomePage = (function () {
+    function HomePage(navCtrl) {
+        this.navCtrl = navCtrl;
+    }
+    return HomePage;
+}());
+HomePage = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+        selector: 'page-home',template:/*ion-inline-start:"/Users/samithakahawala/Desktop/my Projects/ChatApp/src/pages/home/home.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title>\n      Ionic Blank\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content>\n\n  <div id="chatbox">\n    <div id="friendslist">\n      <div id="topmenu">\n        <span class="friends"></span>\n        <span class="chats"></span>\n        <span class="history"></span>\n      </div>\n\n      <div id="friendss">\n        <div class="friend">\n          <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/245657/1_copy.jpg" />\n          <p>\n            <strong>Miro Badev</strong>\n            <span>mirobadev@gmail.com</span>\n          </p>\n          <div class="status available"></div>\n        </div>\n\n        <div class="friend">\n          <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/245657/2_copy.jpg" />\n          <p>\n            <strong>Martin Joseph</strong>\n            <span>marjoseph@gmail.com</span>\n          </p>\n          <div class="status away"></div>\n        </div>\n\n        <div class="friend">\n          <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/245657/3_copy.jpg" />\n          <p>\n            <strong>Tomas Kennedy</strong>\n            <span>tomaskennedy@gmail.com</span>\n          </p>\n          <div class="status inactive"></div>\n        </div>\n\n        <div class="friend">\n          <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/245657/4_copy.jpg" />\n          <p>\n            <strong>Enrique Sutton</strong>\n            <span>enriquesutton@gmail.com</span>\n          </p>\n          <div class="status inactive"></div>\n        </div>\n\n        <div class="friend">\n          <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/245657/5_copy.jpg" />\n          <p>\n            <strong> Darnell Strickland</strong>\n            <span>darnellstrickland@gmail.com</span>\n          </p>\n          <div class="status inactive"></div>\n        </div>\n\n        <div id="search">\n          <input type="text" id="searchfield" value="Search contacts..." />\n        </div>\n\n      </div>\n\n    </div>\n\n    <div id="chatview" class="p1">\n      <div id="profile">\n\n        <div id="close">\n          <div class="cy"></div>\n          <div class="cx"></div>\n        </div>\n\n        <p>Miro Badev</p>\n        <span>miro@badev@gmail.com</span>\n      </div>\n      <div id="chat-messages">\n        <label>Thursday 02</label>\n\n        <div class="message">\n          <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/245657/1_copy.jpg" />\n          <div class="bubble">\n            Really cool stuff!\n            <div class="corner"></div>\n            <span>3 min</span>\n          </div>\n        </div>\n\n        <div class="message right">\n          <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/245657/2_copy.jpg" />\n          <div class="bubble">\n            Can you share a link for the tutorial?\n            <div class="corner"></div>\n            <span>1 min</span>\n          </div>\n        </div>\n\n        <div class="message">\n          <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/245657/1_copy.jpg" />\n          <div class="bubble">\n            Yeah, hold on\n            <div class="corner"></div>\n            <span>Now</span>\n          </div>\n        </div>\n\n        <div class="message right">\n          <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/245657/2_copy.jpg" />\n          <div class="bubble">\n            Can you share a link for the tutorial?\n            <div class="corner"></div>\n            <span>1 min</span>\n          </div>\n        </div>\n\n        <div class="message">\n          <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/245657/1_copy.jpg" />\n          <div class="bubble">\n            Yeah, hold on\n            <div class="corner"></div>\n            <span>Now</span>\n          </div>\n        </div>\n\n      </div>\n\n      <div id="sendmessage">\n        <input type="text" value="Send message..." />\n        <button id="send"></button>\n      </div>\n\n    </div>\n  </div>\n\n\n\n\n\n</ion-content>'/*ion-inline-end:"/Users/samithakahawala/Desktop/my Projects/ChatApp/src/pages/home/home.html"*/
+    }),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */]])
+], HomePage);
+
+//# sourceMappingURL=home.js.map
+
+/***/ }),
+
+/***/ 399:
+/***/ (function(module, exports, __webpack_require__) {
+
+var map = {
+	"./af": 198,
+	"./af.js": 198,
+	"./ar": 199,
+	"./ar-dz": 200,
+	"./ar-dz.js": 200,
+	"./ar-kw": 201,
+	"./ar-kw.js": 201,
+	"./ar-ly": 202,
+	"./ar-ly.js": 202,
+	"./ar-ma": 203,
+	"./ar-ma.js": 203,
+	"./ar-sa": 204,
+	"./ar-sa.js": 204,
+	"./ar-tn": 205,
+	"./ar-tn.js": 205,
+	"./ar.js": 199,
+	"./az": 206,
+	"./az.js": 206,
+	"./be": 207,
+	"./be.js": 207,
+	"./bg": 208,
+	"./bg.js": 208,
+	"./bm": 209,
+	"./bm.js": 209,
+	"./bn": 210,
+	"./bn.js": 210,
+	"./bo": 211,
+	"./bo.js": 211,
+	"./br": 212,
+	"./br.js": 212,
+	"./bs": 213,
+	"./bs.js": 213,
+	"./ca": 214,
+	"./ca.js": 214,
+	"./cs": 215,
+	"./cs.js": 215,
+	"./cv": 216,
+	"./cv.js": 216,
+	"./cy": 217,
+	"./cy.js": 217,
+	"./da": 218,
+	"./da.js": 218,
+	"./de": 219,
+	"./de-at": 220,
+	"./de-at.js": 220,
+	"./de-ch": 221,
+	"./de-ch.js": 221,
+	"./de.js": 219,
+	"./dv": 222,
+	"./dv.js": 222,
+	"./el": 223,
+	"./el.js": 223,
+	"./en-au": 224,
+	"./en-au.js": 224,
+	"./en-ca": 225,
+	"./en-ca.js": 225,
+	"./en-gb": 226,
+	"./en-gb.js": 226,
+	"./en-ie": 227,
+	"./en-ie.js": 227,
+	"./en-nz": 228,
+	"./en-nz.js": 228,
+	"./eo": 229,
+	"./eo.js": 229,
+	"./es": 230,
+	"./es-do": 231,
+	"./es-do.js": 231,
+	"./es-us": 232,
+	"./es-us.js": 232,
+	"./es.js": 230,
+	"./et": 233,
+	"./et.js": 233,
+	"./eu": 234,
+	"./eu.js": 234,
+	"./fa": 235,
+	"./fa.js": 235,
+	"./fi": 236,
+	"./fi.js": 236,
+	"./fo": 237,
+	"./fo.js": 237,
+	"./fr": 238,
+	"./fr-ca": 239,
+	"./fr-ca.js": 239,
+	"./fr-ch": 240,
+	"./fr-ch.js": 240,
+	"./fr.js": 238,
+	"./fy": 241,
+	"./fy.js": 241,
+	"./gd": 242,
+	"./gd.js": 242,
+	"./gl": 243,
+	"./gl.js": 243,
+	"./gom-latn": 244,
+	"./gom-latn.js": 244,
+	"./gu": 245,
+	"./gu.js": 245,
+	"./he": 246,
+	"./he.js": 246,
+	"./hi": 247,
+	"./hi.js": 247,
+	"./hr": 248,
+	"./hr.js": 248,
+	"./hu": 249,
+	"./hu.js": 249,
+	"./hy-am": 250,
+	"./hy-am.js": 250,
+	"./id": 251,
+	"./id.js": 251,
+	"./is": 252,
+	"./is.js": 252,
+	"./it": 253,
+	"./it.js": 253,
+	"./ja": 254,
+	"./ja.js": 254,
+	"./jv": 255,
+	"./jv.js": 255,
+	"./ka": 256,
+	"./ka.js": 256,
+	"./kk": 257,
+	"./kk.js": 257,
+	"./km": 258,
+	"./km.js": 258,
+	"./kn": 259,
+	"./kn.js": 259,
+	"./ko": 260,
+	"./ko.js": 260,
+	"./ky": 261,
+	"./ky.js": 261,
+	"./lb": 262,
+	"./lb.js": 262,
+	"./lo": 263,
+	"./lo.js": 263,
+	"./lt": 264,
+	"./lt.js": 264,
+	"./lv": 265,
+	"./lv.js": 265,
+	"./me": 266,
+	"./me.js": 266,
+	"./mi": 267,
+	"./mi.js": 267,
+	"./mk": 268,
+	"./mk.js": 268,
+	"./ml": 269,
+	"./ml.js": 269,
+	"./mr": 270,
+	"./mr.js": 270,
+	"./ms": 271,
+	"./ms-my": 272,
+	"./ms-my.js": 272,
+	"./ms.js": 271,
+	"./my": 273,
+	"./my.js": 273,
+	"./nb": 274,
+	"./nb.js": 274,
+	"./ne": 275,
+	"./ne.js": 275,
+	"./nl": 276,
+	"./nl-be": 277,
+	"./nl-be.js": 277,
+	"./nl.js": 276,
+	"./nn": 278,
+	"./nn.js": 278,
+	"./pa-in": 279,
+	"./pa-in.js": 279,
+	"./pl": 280,
+	"./pl.js": 280,
+	"./pt": 281,
+	"./pt-br": 282,
+	"./pt-br.js": 282,
+	"./pt.js": 281,
+	"./ro": 283,
+	"./ro.js": 283,
+	"./ru": 284,
+	"./ru.js": 284,
+	"./sd": 285,
+	"./sd.js": 285,
+	"./se": 286,
+	"./se.js": 286,
+	"./si": 287,
+	"./si.js": 287,
+	"./sk": 288,
+	"./sk.js": 288,
+	"./sl": 289,
+	"./sl.js": 289,
+	"./sq": 290,
+	"./sq.js": 290,
+	"./sr": 291,
+	"./sr-cyrl": 292,
+	"./sr-cyrl.js": 292,
+	"./sr.js": 291,
+	"./ss": 293,
+	"./ss.js": 293,
+	"./sv": 294,
+	"./sv.js": 294,
+	"./sw": 295,
+	"./sw.js": 295,
+	"./ta": 296,
+	"./ta.js": 296,
+	"./te": 297,
+	"./te.js": 297,
+	"./tet": 298,
+	"./tet.js": 298,
+	"./th": 299,
+	"./th.js": 299,
+	"./tl-ph": 300,
+	"./tl-ph.js": 300,
+	"./tlh": 301,
+	"./tlh.js": 301,
+	"./tr": 302,
+	"./tr.js": 302,
+	"./tzl": 303,
+	"./tzl.js": 303,
+	"./tzm": 304,
+	"./tzm-latn": 305,
+	"./tzm-latn.js": 305,
+	"./tzm.js": 304,
+	"./uk": 306,
+	"./uk.js": 306,
+	"./ur": 307,
+	"./ur.js": 307,
+	"./uz": 308,
+	"./uz-latn": 309,
+	"./uz-latn.js": 309,
+	"./uz.js": 308,
+	"./vi": 310,
+	"./vi.js": 310,
+	"./x-pseudo": 311,
+	"./x-pseudo.js": 311,
+	"./yo": 312,
+	"./yo.js": 312,
+	"./zh-cn": 313,
+	"./zh-cn.js": 313,
+	"./zh-hk": 314,
+	"./zh-hk.js": 314,
+	"./zh-tw": 315,
+	"./zh-tw.js": 315
+};
+function webpackContext(req) {
+	return __webpack_require__(webpackContextResolve(req));
+};
+function webpackContextResolve(req) {
+	var id = map[req];
+	if(!(id + 1)) // check for number or string
+		throw new Error("Cannot find module '" + req + "'.");
+	return id;
+};
+webpackContext.keys = function webpackContextKeys() {
+	return Object.keys(map);
+};
+webpackContext.resolve = webpackContextResolve;
+module.exports = webpackContext;
+webpackContext.id = 399;
+
+/***/ }),
+
+/***/ 56:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MessageProvider; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_add_operator_map__ = __webpack_require__(347);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_rxjs_add_operator_map__);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+/*
+  Generated class for the MessageProvider provider.
+
+  See https://angular.io/guide/dependency-injection for more info on providers
+  and Angular DI.
+*/
+var MessageProvider = (function () {
+    function MessageProvider() {
+        this.friends = [
+            {
+                id: 1,
+                name: "Jon Snow",
+                email: "snow@gmail.com",
+                status: "available"
+            },
+            {
+                id: 2,
+                name: "Tyrion Lannister",
+                email: "Tyrion@gmail.com",
+                status: "away"
+            },
+            {
+                id: 3,
+                name: "Daenerys Targaryen",
+                email: "Daenerys@gmail.com",
+                status: "available"
+            },
+            {
+                id: 4,
+                name: "Arya Stark",
+                email: "Arya@gmail.com",
+                status: "away"
+            }
+        ];
+        console.log('Hello MessageProvider Provider');
+    }
+    MessageProvider.prototype.getStudentsFromBranch = function (id) {
+        var students = {
+            1: [
+                {
+                    message: "Hi there!",
+                    type: "left",
+                    timestamp: 1506669284000
+                },
+                {
+                    message: "Hi",
+                    type: "right",
+                    timestamp: 1506669284000
+                },
+                {
+                    message: "I need your army to defeat the dead",
+                    type: "left",
+                    timestamp: 1506669284000
+                }
+            ],
+            2: [
+                {
+                    message: "Hey!",
+                    type: "left",
+                    timestamp: 1506669284000
+                },
+                {
+                    message: "Hi",
+                    type: "right",
+                    timestamp: 1506669284000
+                }
+            ],
+            3: [
+                {
+                    message: "Hi there!",
+                    type: "left",
+                    timestamp: 1506669284000
+                }
+            ],
+            4: [
+                {
+                    message: "Hi there! Do you in my list",
+                    type: "left",
+                    timestamp: 1506669284000
+                },
+                {
+                    message: "Im not sure",
+                    type: "right",
+                    timestamp: 1506669284000
+                }
+            ]
+        };
+        return students[id];
+    };
+    return MessageProvider;
+}());
+MessageProvider = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Injectable"])(),
+    __metadata("design:paramtypes", [])
+], MessageProvider);
+
+//# sourceMappingURL=message.js.map
+
+/***/ })
+
+},[327]);
+//# sourceMappingURL=main.js.map

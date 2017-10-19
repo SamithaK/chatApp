@@ -23,21 +23,40 @@ export class ChatUserPage {
   messeges = [];
   name: string;
   email: string;
+  fieldOnfocus: boolean = false;
   constructor(public navCtrl: NavController, public navParams: NavParams, private messsageing: MessageProvider, public viewCtrl: ViewController) {
     let user = navParams.get('user');
     this.name = user.name;
     this.email = user.email;
     this.messeges = this.messsageing.getStudentsFromBranch(user.id);
+    setTimeout(() => {
+      try {
+        this.content.scrollToBottom()
+      } catch (error) {
+        console.log('catch an error ', error)
+      }
+    }, 100);
+
   }
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad ChatUserPage');
   }
 
+  onfocus() {
+    console.log("div the field");
+    this.fieldOnfocus = false;
+  }
+
+  onfocusinput(){
+    console.log("input the field");
+    this.fieldOnfocus = true;
+  }
+
+
   updateList(event) {
     if (event.key === 'Enter' && event.srcElement) {
-
-        this.sendMessage();
+      this.sendMessage();
     }
   }
 
@@ -56,7 +75,11 @@ export class ChatUserPage {
         console.log('catch an error ', error)
       }
     }, 100)
-    this.txt.nativeElement.focus();
+    console.log(this.fieldOnfocus);
+    if (this.fieldOnfocus) {
+      this.txt.nativeElement.focus();
+    }
+
   }
 
   close() {
