@@ -6,6 +6,7 @@
 -->
 <ion-content class="pt-page-scaleUp">
   <div>
+    <div (click)="onfocus()">
     <div (click)="close()" class="close"></div>
     <div class="user_section ">
       <div class="user_section1">
@@ -20,7 +21,7 @@
       </div>
     </div>
     <div class="messaging">
-      <ion-list (click)="onfocus()">
+      <ion-list>
         <ion-item style="padding-left: 0px;" *ngFor="let messege of messeges">
           <div [ngClass]="{'right': (messege.type == 'right'), 'left':(messege.type == 'left')}" class="message">
             <img src="assets/avata/avata.jpg" />
@@ -33,10 +34,13 @@
         </ion-item>
       </ion-list>
     </div>
+    </div>
 
     <div class="sendmessage">
-      <input (focus)="onfocusinput()" #txt (keyup)="updateList($event)" [(ngModel)]="textMessage" style="width: 85%; height: 100%; padding-left: 5px;" type="text" placeholder="Send message..."
-        value="" />
+      <input (focus)="onfocusinput()" #txt (keyup)="updateList($event)" [(ngModel)]="textMessage"
+        type="text" placeholder="Send message..." value="" />
+      <button (click)="uploadImage()" class="picbutton"></button>
+      <button (click)="uploadImage()" class="emojibutton"></button>
       <button (click)="sendMessage()" [disabled]="!(textMessage)" class="send"></button>
     </div>
   </div>

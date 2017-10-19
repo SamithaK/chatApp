@@ -79,7 +79,10 @@ export class ChatUserPage {
     if (this.fieldOnfocus) {
       this.txt.nativeElement.focus();
     }
+  }
 
+  uploadImage(){
+    alert("Function is not available");
   }
 
   close() {
