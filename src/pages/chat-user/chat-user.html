@@ -1,0 +1,43 @@
+<!--
+  Generated template for the ChatUserPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-content class="pt-page-scaleUp">
+  <div>
+    <div (click)="close()" class="close"></div>
+    <div class="user_section ">
+      <div class="user_section1">
+        <div class="user_image">
+          <img src="assets/avata/avata.jpg">
+        </div>
+        <div class="user_details">
+          <span>{{name}}</span>
+          <br/>
+          <span>{{email}}</span>
+        </div>
+      </div>
+    </div>
+    <div class="messaging">
+      <ion-list>
+        <ion-item style="padding-left: 0px;" *ngFor="let messege of messeges">
+          <div [ngClass]="{'right': (messege.type == 'right'), 'left':(messege.type == 'left')}" class="message">
+            <img src="assets/avata/avata.jpg" />
+            <div class="bubble">
+              <p>{{messege.message}}</p>
+              <div class="corner"></div>
+              <span>{{messege.timestamp | date}}</span>
+            </div>
+          </div>
+        </ion-item>
+      </ion-list>
+    </div>
+    <div class="sendmessage">
+      <input #txt [(ngModel)]="textMessage" style="width: 90%; height: 100%;" type="text" placeholder="Send message..." value="" />
+      <button (click)="sendMessage()" class="send"></button>
+    </div>
+  </div>
+
+
+</ion-content>
