@@ -16,9 +16,9 @@
 <ion-content>
 
   <div id="topmenu">
-    <span (click)="clickTab('friends')" [ngClass]="{'active':(type == 'friends')}" class="friends"></span>
+    <span (touchstart)="clickTab('friends')" [ngClass]="{'active':(type == 'friends')}" class="friends"></span>
     <!-- <span (click)="clickTab('chat')" [ngClass]="{'active':(type == 'chat')}" class="chats"></span> -->
-    <span (click)="clickTab('history')" [ngClass]="{'active':(type == 'history')}" class="history"></span>
+    <span (touchstart)="clickTab('history')" [ngClass]="{'active':(type == 'history')}" class="history"></span>
   </div>
 
   <div class="show-friends" *ngIf="type == 'friends'">

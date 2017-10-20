@@ -192,20 +192,46 @@ page-chat-user {
             width:100%;
             background:#fff;
             padding-left: 2px;
+            display: flex; /* or inline-flex */	
+            flex-direction: row;
+        }
+        .input-field{
+            flex: 5;
+        }
+        .button-section{
+            flex: 1;
+        }
+
+        @media (max-width: 540px) { 
+            .input-field{
+                flex: 3;
+            }
+        }
+        @media (max-width: 375px) { 
+            .input-field{
+                flex: 2.6;
+            }
+        }
+
+        @media (max-width: 360px) { 
+            .input-field{
+                flex: 2;
+            }
         }
 
         .sendmessage input {
-            width: 72%; 
-            height: 100%; 
+            width: 95%;
+            height: 50%; 
+            margin-top: 1em;
             padding-left: 5px;
             border: 1px solid #e7ebee;
-            border-radius: 5%;
+            border-radius: 7px;
         }
 
         .sendmessage input:focus {
-            width: 80%;
-            -webkit-transition: width .35s ease-in-out;
-            transition: width .35s ease-in-out;
+            //width: 23em; 
+            -webkit-transition: width .1s ease-in-out;
+            transition: width .1s ease-in-out;
         }
         .picbutton {
             background:#fff url(../assets/icon/imageupload.png);

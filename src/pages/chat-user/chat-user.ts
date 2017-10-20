@@ -1,6 +1,6 @@
 import { MessageProvider } from './../../providers/message/message';
 import { Component, ViewChild } from '@angular/core';
-import { IonicPage, NavController, NavParams, ViewController } from 'ionic-angular';
+import { IonicPage, NavController, NavParams, ViewController, Platform } from 'ionic-angular';
 import { Content } from "ionic-angular";
 import * as moment from 'moment';
 
@@ -24,7 +24,7 @@ export class ChatUserPage {
   name: string;
   email: string;
   fieldOnfocus: boolean = false;
-  constructor(public navCtrl: NavController, public navParams: NavParams, private messsageing: MessageProvider, public viewCtrl: ViewController) {
+  constructor(public navCtrl: NavController, public navParams: NavParams, private platform: Platform, private messsageing: MessageProvider, public viewCtrl: ViewController) {
     let user = navParams.get('user');
     this.name = user.name;
     this.email = user.email;
@@ -36,7 +36,6 @@ export class ChatUserPage {
         console.log('catch an error ', error)
       }
     }, 100);
-
   }
 
   ionViewDidLoad() {
@@ -48,20 +47,33 @@ export class ChatUserPage {
     this.fieldOnfocus = false;
   }
 
-  onfocusinput(){
+  onfocusinput() {
+    setTimeout(() => {
+      try {
+        this.content.scrollToBottom()
+      } catch (error) {
+        console.log('catch an error ', error)
+      }
+    }, 100);
     console.log("input the field");
     this.fieldOnfocus = true;
   }
 
 
   updateList(event) {
+    console.log(event);
+    
     if (event.key === 'Enter' && event.srcElement) {
-      this.sendMessage();
+      if (this.textMessage) {
+        this.sendMessage();
+      }
+
     }
   }
 
 
   sendMessage() {
+
     this.messeges.push({
       message: this.textMessage,
       type: "right",
@@ -75,13 +87,19 @@ export class ChatUserPage {
         console.log('catch an error ', error)
       }
     }, 100)
+    // dummy element
+    let buttonclick = true;
+    var dummyEl = document.getElementById('myID');
+    // check for focus
+    var isFocused = (document.activeElement === dummyEl);
     console.log(this.fieldOnfocus);
+
     if (this.fieldOnfocus) {
       this.txt.nativeElement.focus();
     }
   }
 
-  uploadImage(){
+  uploadImage() {
     alert("Function is not available");
   }
 
