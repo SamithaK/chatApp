@@ -1,7 +1,5 @@
 {
-  "name": "alakazamMobile",
-  "integrations": {
-    "cordova": {}
-  },
-  "type": "ionic-angular"
+  "name": "chat-App",
+  "integrations": {},
+  "type": "angular"
 }

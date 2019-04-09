@@ -1,0 +1,93 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>login</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <div class="main-container">
+    <!-- Default Segment -->
+    <ion-segment [(ngModel)]="segment" (ionChange)="segmentChanged($event)">
+      <ion-segment-button value="login">
+        <ion-label>Login</ion-label>
+      </ion-segment-button>
+      <ion-segment-button value="register">
+        <ion-label>Register</ion-label>
+      </ion-segment-button>
+
+      <ion-segment-button value="guest">
+        <ion-label>Join as a Guest</ion-label>
+      </ion-segment-button>
+    </ion-segment>
+
+    <div class="margin-top-spacing" [ngSwitch]="segment">
+      <div *ngSwitchCase="'login'">
+
+        <ion-list>
+          <form [formGroup]="loginForm" (submit)="saveUser()">
+
+            <ion-item class="margin-top-item-spacing">
+              <ion-label floating>Username</ion-label>
+              <ion-input formControlName="userName" type="text"></ion-input>
+            </ion-item>
+
+            <ion-item class="margin-top-item-spacing">
+              <ion-label floating>Password</ion-label>
+              <ion-input formControlName="password" type="password"></ion-input>
+            </ion-item>
+
+          </form>
+          <ion-button (click)="loginBtn()" class="margin-top-spacing" [disabled]="!loginForm.valid" expand="block">Login</ion-button>
+        </ion-list>
+
+      </div>
+
+      <div *ngSwitchCase="'register'">
+        <ion-list>
+          <form [formGroup]="registerForm" (submit)="saveUser()">
+            <ion-item class="margin-top-item-spacing">
+              <ion-label floating>Name</ion-label>
+              <ion-input formControlName="name" type="text"></ion-input>
+            </ion-item>
+
+            <ion-item class="margin-top-item-spacing">
+              <ion-label floating>Username</ion-label>
+              <ion-input formControlName="userName" type="text"></ion-input>
+            </ion-item>
+
+            <ion-item class="margin-top-item-spacing">
+              <ion-label floating>Password</ion-label>
+              <ion-input formControlName="password" type="password"></ion-input>
+            </ion-item>
+
+            <ion-item class="margin-top-item-spacing">
+              <ion-label>Gender</ion-label>
+              <ion-select formControlName="type" placeholder="Select One">
+                <ion-select-option value="f">Female</ion-select-option>
+                <ion-select-option value="m">Male</ion-select-option>
+              </ion-select>
+            </ion-item>
+          </form>
+          <ion-button (click)="registerBtn()" class="margin-top-spacing" [disabled]="!registerForm.valid" expand="block">Register</ion-button>
+        </ion-list>
+      </div>
+
+
+      <div *ngSwitchCase="'guest'">
+        <ion-list>
+          <ion-item class="margin-top-item-spacing">
+            <ion-label floating>Enter Your Name</ion-label>
+            <ion-input [(ngModel)]="name" type="text"></ion-input>
+          </ion-item>
+
+          <ion-button (click)="guest()" class="margin-top-spacing" expand="block">Join</ion-button>
+        </ion-list>
+      </div>
+
+
+    </div>
+
+  </div>
+
+</ion-content>

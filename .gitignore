@@ -3,6 +3,7 @@
 /node_modules
 /platform
 /plugins
+/www
 
 *package-lock.json
 

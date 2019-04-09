@@ -1,41 +1,31 @@
-import { ChatUserPage } from './../pages/chat-user/chat-user';
-import { ChatPage } from './../pages/chat/chat';
+import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { ErrorHandler, NgModule } from '@angular/core';
-import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
-import { SplashScreen } from '@ionic-native/splash-screen';
-import { StatusBar } from '@ionic-native/status-bar';
+import { RouteReuseStrategy } from '@angular/router';
 
-import { MyApp } from './app.component';
-import { HomePage } from '../pages/home/home';
-import { MessageProvider } from '../providers/message/message';
-import { MomentModule } from 'angular2-moment';
+import { IonicModule, IonicRouteStrategy } from '@ionic/angular';
+import { SplashScreen } from '@ionic-native/splash-screen/ngx';
+import { StatusBar } from '@ionic-native/status-bar/ngx';
 
+import { AppComponent } from './app.component';
+import { AppRoutingModule } from './app-routing.module';
+
+import { HttpClientModule } from '@angular/common/http';
+import { BASE_PATH } from '../variables';
+import { ReactiveFormsModule, FormsModule } from '@angular/forms';
 
 @NgModule({
-  declarations: [
-    MyApp,
-    HomePage,
-    ChatPage,
-    ChatUserPage
-  ],
-  imports: [
-    BrowserModule,
-    MomentModule,
-    IonicModule.forRoot(MyApp)
-  ],
-  bootstrap: [IonicApp],
-  entryComponents: [
-    MyApp,
-    HomePage,
-    ChatPage,
-    ChatUserPage
+  declarations: [AppComponent],
+  entryComponents: [],
+  imports: [BrowserModule, IonicModule.forRoot(), AppRoutingModule, HttpClientModule, 
+    ReactiveFormsModule, 
+    FormsModule
   ],
   providers: [
     StatusBar,
     SplashScreen,
-    {provide: ErrorHandler, useClass: IonicErrorHandler},
-    MessageProvider
-  ]
+    { provide: RouteReuseStrategy, useClass: IonicRouteStrategy },
+    {provide:BASE_PATH, useValue:"http://localhost:5000/api"}
+  ],
+  bootstrap: [AppComponent]
 })
 export class AppModule {}
