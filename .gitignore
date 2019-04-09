@@ -4,6 +4,7 @@
 /platform
 /plugins
 /www
+/backend-services/chat-app-backend-server/node_modules
 
 *package-lock.json
 
